@@ -1,0 +1,906 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The young man's remembrancer, and Youth's best choice: being an exhortation to conversion, in two anniversary discourses from Eccl. xii. I.</title>
+            <author>Mead, Matthew, 1630?-1699.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 136 KB of XML-encoded text transcribed from 83 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B09529</idno>
+            <idno type="OCLC"> 124064226</idno>
+            <idno type="STC">Wing M1563A</idno>
+            <idno type="STC">ESTC R180504</idno>
+            <idno type="EEBO-CITATION">124064226</idno>
+            <idno type="OCLC">ocn 124064226</idno>
+            <idno type="VID">192295</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B09529)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 192295)</note>
+            <note>Images scanned from microfilm: (Early English books; 1641-1700 ; 2913:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The young man's remembrancer, and Youth's best choice: being an exhortation to conversion, in two anniversary discourses from Eccl. xii. I.</title>
+                  <author>Mead, Matthew, 1630?-1699.</author>
+               </titleStmt>
+               <extent>[11], 142 p. : port.  </extent>
+               <publicationStmt>
+                  <publisher>Printed for Iohn Marshall ...,</publisher>
+                  <pubPlace>London: :</pubPlace>
+                  <date>printed in the year MDCC. [1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Author and publisher from frontispiece.</note>
+                  <note>Reproduction of original in the University of Toronto Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Ecclesiastes XII, 1 --  Commentaries --  Early works to 1800.</term>
+               <term>Conduct of life --  Early works to 1800.</term>
+               <term>Christian life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Zev Berger</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Zev Berger</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="frontispiece">
+            <pb facs="tcp:192295:1" rendition="simple:additions"/>
+            <pb facs="tcp:192295:2"/>
+            <pb facs="tcp:192295:2"/>
+            <pb facs="tcp:192295:3"/>
+            <p>
+               <figure>
+                  <p>
+                     <hi>MATTHEW MEAD</hi> Minister of the Gospel</p>
+                  <p>Aetatis Suce 70. An.<hi rend="sup">o</hi> Do: 1699.</p>
+                  <p>Printed for Iohn Marshall &amp; Sold by him at y<hi rend="sup">e</hi> Bible in Grace-church-Street</p>
+               </figure>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:192295:3"/>
+            <p>THE Young Man's REMEMBRANCER, AND YOUTH's Beſt Choice: BEING An Exhortation to Conver<g ref="char:EOLhyphen"/>ſion, in Two Anniverſary Diſcourſes from</p>
+            <q>
+               <bibl>Eccl. <hi>xii. 1.</hi>
+               </bibl>
+               <p>Remember now thy Creator in the Days of thy Youth, while the Evil Days come not, nor the Years draw nigh, in which thou ſhalt ſay, I have no pleaſure in them.</p>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed in the Year MDCC.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:192295:4"/>
+            <pb facs="tcp:192295:4"/>
+            <head>THE EPISTLE TO <hi>Young Readers</hi> Looking towards the Kingdom of God.</head>
+            <opener>
+               <salute>Dearly Beloved in our Lord,</salute>
+            </opener>
+            <p>THE Hopes, that there is a Harveſt of Young Ones to Chriſt, for which the <hi>Fields</hi> are <hi>Already White,</hi> when Chriſt ſhall have in this ſenſe the <hi>Dew</hi> of <hi>his Youth</hi> from the <hi>Womb of the Morning,</hi> and You <hi>Free<g ref="char:EOLhyphen"/>will
+<pb facs="tcp:192295:5"/>
+Offerings</hi> to Him in that <hi>Day</hi> of his <hi>Power,</hi> This gives Encouragement of this Addreſs to you, in Confidence, there will be many of You Readers: It is Evident. Young Perſons are One Eminent Portion of the Lord Jeſus his Love, and Care; and ſo of the Goſpel Miniſtry, and of the Servants of God in all Ages; God was aſſured of <hi>Abraham,</hi> he would <hi>Inſtruct</hi> his <hi>Children after Him</hi> in his Knowledge, and Fear: <hi>Moſes</hi> took great Care of this, to leave Monuments for Young <hi>Iſraelites</hi> growing up; <hi>David</hi> the Father gave Excellent Principles to his Son <hi>Solomon;</hi> And in a Holy Zeal, and Love to Young Men, cries out, <hi>Wherewithal ſhall a Young Man cleanſe his Way?</hi>
+               <pb facs="tcp:192295:5"/>
+As if he ſhould ſay, What Spiri<g ref="char:EOLhyphen"/>tual Engine ſhall I find to raiſe the Hearts of Young Men, to Buoy them up from the World, the Raging Sea of Vanity, Luſt, and Wickedneſs? I ſhould re<g ref="char:EOLhyphen"/>joice in ſuch a One, and I have found it, even thy Word, to which they ſhould always give heed. <hi>Solomon</hi> in this Peni<g ref="char:EOLhyphen"/>tential Sermon of his, after ſome Declinings, recovering the Piety of his Youth in which he ſtiles himſelf <hi>Eccleſiaſtes,</hi> or the <hi>Preacher</hi> is much engaged in it; as you will ſee in the Following Diſcourſes. <hi>Jeſus Chriſt</hi> in Love to the Riſing Hopes of Young Ones, Bleſſed early, even Infant Age: The <hi>Beloved Apo<g ref="char:EOLhyphen"/>ſtle,</hi> that lay in the <hi>Boſom</hi> of <hi>Chriſt,</hi> ſays, <hi>I write to you,
+<pb facs="tcp:192295:6"/>
+Young Men, becauſe you are ſtrong,</hi> Vigorous in Mind, Bo<g ref="char:EOLhyphen"/>dy, full of Spirit, and Vivacity; and in all of them who are Chri<g ref="char:EOLhyphen"/>ſtians, the Word of God abi<g ref="char:EOLhyphen"/>deth; and as Vigorous Perſons, the Champions of Chriſt <hi>over<g ref="char:EOLhyphen"/>come the Wicked One,</hi> though the <hi>Strong Man;</hi> Obadiah <hi>fear<g ref="char:EOLhyphen"/>ed God from his Youth,</hi> that early Saint of the <hi>Old Teſta<g ref="char:EOLhyphen"/>ment: Timothy</hi> of the <hi>New Teſtament, Knew the Scrip<g ref="char:EOLhyphen"/>tures from a Child. Chriſt</hi> remembers the <hi>Kindneſs</hi> of <hi>Youth,</hi> the Love of Firſt E<g ref="char:EOLhyphen"/>ſpouſals, before farther Alienati<g ref="char:EOLhyphen"/>ons from him, and Proſtitutions to Sin, Satan, the World; His <hi>Soul deſires the Firſt Ripe Fruit.</hi> Oh that all this might perſwade; But I eſpecially re<g ref="char:EOLhyphen"/>commend
+<pb facs="tcp:192295:6"/>
+the following Directi<g ref="char:EOLhyphen"/>ons, prepar'd for you, given forth by ſome Excellent <hi>Maſter</hi> of <hi>Aſſembly,</hi> whom I will not attempt to ſuppoſe, who he was, being not entruſted with it; and whether he did not <hi>Animam in Vulnere Ponere;</hi> He did not draw out his very Spirit, and Life in ſhooting this <hi>Sharp Ar<g ref="char:EOLhyphen"/>row</hi> of Chriſt into your Hearts, that you might fall under Chriſt; Oh therefore, You in the Aſcen<g ref="char:EOLhyphen"/>dency of Life, againſt all Temp<g ref="char:EOLhyphen"/>tation, flee Youthful Luſts, ſa<g ref="char:EOLhyphen"/>crifice this Choice Part of Life to God; take heed that Curſe come not on you; You who have in your Flock this Male of Life, even Youth, Oh deſign not to <hi>Vow,</hi> to <hi>Sacrifice</hi> to God the <hi>Corrupt Thing</hi> of <hi>Old Age;</hi>
+               <pb facs="tcp:192295:7"/>
+Grown old in Sin: The Brand of a Deceiver is ſet on all ſuch; <hi>Know therefore in this your Day,</hi> the <hi>Lord hath made for</hi> you the <hi>Day</hi> of your <hi>Viſitation, the Accepted Day</hi> of <hi>Salvati<g ref="char:EOLhyphen"/>on,</hi> the <hi>Things</hi> of your <hi>Peace;</hi> This is recommended to you, in the following Inſtructions, un<g ref="char:EOLhyphen"/>der the Bleſſing of the Eternal Father, through the Redemption of the Eternal Son, by the mighty Efficacy of the Eternal Spirit, the <hi>One Eternal God,</hi> the An<g ref="char:EOLhyphen"/>cient of Days, the Father of Lights, with whom is no va<g ref="char:EOLhyphen"/>riation of Age, nor ſhadow of Turning to the West of Days, to whom be Glory for Ever.</p>
+            <closer>Amen.</closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:192295:7"/>
+            <head>TO THE READER.</head>
+            <p>IT may not be amiſs to inform thee, that this Piece thou haſt now in thy Hand may truly he called <hi>Orphan,</hi> and therefore it cannot be expected to come forth in ſuch a Curious Dreſs, as becomes the Child of ſuch a Parent, there being no poſſibility of acceſs to his Wardrobe to adorn it: Yet notwith<g ref="char:EOLhyphen"/>ſtanding (I hope) there are many Wit<g ref="char:EOLhyphen"/>neſſes to its Birth, into whoſe Hands it may come, that may give ſufficient Te<g ref="char:EOLhyphen"/>ſtimony of its Legitimacy. It cannot be at all queſtioned, but you who have ſo often deſired, and have with plea<g ref="char:EOLhyphen"/>ſure heard its Voice, but will alſo add this Requeſt to your former, <hi>Let me ſee thy Face.</hi> It now with <hi>Samuel</hi> to <hi>Eli</hi> cries out, <hi>Here am I, for thou didſt call me.</hi> Say not of it as the God of <hi>Iſrael, How ſhall I put thee among the Children?</hi> But let this which was the Parents <hi>Benoni,</hi> be thy
+<pb facs="tcp:192295:8"/>
+               <hi>Benjamin;</hi> and the rather, becauſe, (as the Reverend Mr. <hi>Mead</hi> ſays)<note n="*" place="margin">Preface to Four <g ref="char:V">Ʋ</g>ſeful Diſcourſes by <hi>J. Burroughs.</hi>
+               </note> 
+               <hi>The Publiſhing the Labours of ſuch Men of Worth, is of Happy Tendency to promote our Communion with them in the Spi<g ref="char:EOLhyphen"/>rit, whom it may be we never ſaw in the Fleſh; and it is to be reckon<g ref="char:EOLhyphen"/>ed among our Mercies, when the Dead are made to ſpeak, that the Living may be perſwaded to hear.</hi> May the God of Heaven attend this Eſſay with his Bleſſing, that its Pub<g ref="char:EOLhyphen"/>lication may be attended with ſuch Succeſs, as was the Author's Deſign in its Preaching; and may'ſt thou by this Small Tract be Enabled to have an Eye to that Reward which now he reaps as the end of ſo Liberal a Seed-time here, even Everlaſting Joy and Felicity in the World to come.</p>
+            <closer>
+               <salute>Farewel.</salute>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="discourse">
+            <pb n="1" facs="tcp:192295:8"/>
+            <head>THE Young Man's REMEMBRANCER. I. DISCOURSE.</head>
+            <epigraph>
+               <q>
+                  <p>
+                     <bibl>
+                        <hi>Eccleſ. xii. 1.</hi>
+                     </bibl> Remember now thy Creator in the Days of thy Youth, while the Evil Days come not, nor the Years draw nigh, in which thou ſhalt ſay, I have no Pleaſure in them.</p>
+               </q>
+            </epigraph>
+            <p>THE Two great Duties of the Chriſtian Life, are, to Ceaſe to do Evil, and to Learn to do Well; the one is Negative, God<g ref="char:EOLhyphen"/>lineſs; the other is Poſitive; the latter can never be without the former. No Man can be Good that doth not Ceaſe to be Evil; and
+<pb n="2" facs="tcp:192295:9"/>
+therefore <hi>Solomon</hi> Exhorts to the former in the Laſt Verſe of the foregoing Chapter, and he brings it in with an Illative Particle, <hi>Put a<g ref="char:EOLhyphen"/>way Evil from thy Fleſh.</hi> It referrs to the Ninth Verſe, <hi>Know thou that for all theſe things God will bring thee to Judgment.</hi> Theſe things, that is, theſe youthful Luſts, theſe ſenſual Pleaſures, which by a ſharp Satyr he does reprove in the former part of the Verſe, <hi>Rejoice, O young Man, in thy Youth, and let thy Heart Cheer thee in the Days of thy Youth, and Walk in the Ways of thy own Heart, and in the Sight of thine Eyes.</hi> As if he ſhould ſay, if thou art re<g ref="char:EOLhyphen"/>ſolved upon thy Luſts, and bent to ſpend thy Youthful Days in thy ſenſual Delights, why then go on and take thy Courſe, but con<g ref="char:EOLhyphen"/>ſider were this will end, and what follows; there is a Reckoning Day a coming, thy pleaſant Way will have a doleful End; though the
+<pb n="3" facs="tcp:192295:9"/>
+Beginning may be Sweet, the Con<g ref="char:EOLhyphen"/>cluſion will be Bitter; for thou muſt Die e're long, nor canſt thou ſay how ſoon, and then thou muſt anſwer to God, for all thy ſinful Courſes, and ſenſual Vanities; for <hi>Know that for all theſe things God will bring thee to Judgment,</hi> and therefore <hi>Put away Evil from thy Fleſh.</hi>
+            </p>
+            <p>And then he proceeds to Exhort to the Poſitive Part of Godlineſs, and that in the Words of the Text, <hi>Remember now thy Creator in the Days of thy Youth.</hi> He tells you in the Laſt Words of the former Verſe, <hi>Childhood and Youth are Vanity;</hi> and the Vanity of it appears in nothing more than in indulging to Senſe and Fleſh, and forgetting God; therefore theſe Words of the Text are the wiſe Man's <hi>Memento</hi> to young Ones, wherein he gives this ſeaſonable Counſel for the Cure of their Va<g ref="char:EOLhyphen"/>nities, <hi>Remember now thy Crea<g ref="char:EOLhyphen"/>tor
+<pb n="4" facs="tcp:192295:10"/>
+in the Days of thy Youth, whilſt the Evil Days come not, nor the Years draw nigh, when thou ſhalt ſay, I have no Pleaſure in them.</hi>
+            </p>
+            <p>In which Words you have an Exhortation to a very concerning Duty, and it is backed with a threefold Argument in the Six fol<g ref="char:EOLhyphen"/>lowing Verſes. In the Duty ex<g ref="char:EOLhyphen"/>horted to, you have Three Things.</p>
+            <p>
+               <hi>Firſt,</hi> The Act, <hi>Remember.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> The Object to be Remembred, <hi>Thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> The Time when he muſt be Remembred, <hi>Now. Re<g ref="char:EOLhyphen"/>member now thy Creator:</hi> But leſt you ſhould think that this <hi>now</hi> takes in the whole Time of this Life, therefore he Excludes the latter Part of Life, and Limits this <hi>now</hi> to the former Part, <hi>Remember now thy Creator in the Days of thy Youth.</hi>
+            </p>
+            <p>And then you have a Three<g ref="char:EOLhyphen"/>fold Argument or Motive upon which the Duty is urged.</p>
+            <p>
+               <pb n="5" facs="tcp:192295:10"/>Old Age, with its Infirmities, Haſtening.</p>
+            <p>Mortality Approaching. And,</p>
+            <p>Judgment Enſuing.</p>
+            <p>
+               <hi>Firſt,</hi> The Approaching of old Age, with the Infirmities that ac<g ref="char:EOLhyphen"/>company it; that we have in thoſe Words, <hi>While the evil Days come not, nor the Years draw nigh, when thou ſhalt ſay, I have no Pleaſure in them;</hi> and what theſe Days and Years are, he tells you in the various Allegories in the following Verſes, <hi>While the Sun, or the Light, or the Moon, or the Stars, be not Darkned, nor the Clouds Return after Rain, in the Day when the Keepers of the Houſe ſhall Tremble, and the ſtrong Men Bow themſelves, and the Grinders Ceaſe, and they fa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> that Look out at the Windows,</hi> &amp;c.</p>
+            <p>
+               <hi>Secondly,</hi> You have an Argu<g ref="char:EOLhyphen"/>ment from Death and Mortality approaching, Verſe 15. <hi>Man goeth to his Long Home. Verſe</hi> 7. <hi>Then
+<pb n="4" facs="tcp:192295:11"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="5" facs="tcp:192295:11"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="6" facs="tcp:192295:12"/>
+ſhall the Duſt return to the Earth as it was.</hi> Then; when? When the Sun, and the Light, <hi>&amp;c.</hi> is Darkned, when the Keepers of the Houſe Tremble, when the ſtrong Men Bow themſelves, and and the Grinders Ceaſe, then ſhall the Duſt return to the Earth as it was.</p>
+            <p>
+               <hi>Thirdly,</hi> You have the Judg<g ref="char:EOLhyphen"/>ment enſuing, Verſe 7. <hi>The Spirit ſhall return to God who gave it;</hi> it is the Soul that is here intended, which is frequently called a Spirit, becauſe of its Spiritual and Im<g ref="char:EOLhyphen"/>material Nature; as the Body of every one Returns to the Duſt, ſo does every Soul Return to God; not to God as a Chief Good, but to God as a Great Judge; not to his Bliſsful Preſence, but to his Judicial Preſence. All Souls do not Return to God to Enjoy him, for that is the Portion but of a few; but all Return to God to be Judged by him, both Good and
+<pb n="7" facs="tcp:192295:12"/>
+Bad, Saint and Sinner. So ſays the wiſe Man in the Third Chap<g ref="char:EOLhyphen"/>ter of this Book, Verſe 17. <hi>God ſhall judge the Righteous and the Wicked; for there is a Time there for every Purpoſe, and for every Work;</hi> ſo that there is ſuch a Returning of the Soul to God, as ſets it before his aweful Tribu<g ref="char:EOLhyphen"/>nal, where it muſt be Sentenced to its Everlaſting State, either to En<g ref="char:EOLhyphen"/>joy God for Ever, or to be Ever<g ref="char:EOLhyphen"/>laſtingly Shut out of his Preſence and Favour; ſo that theſe are the Arguments to Inforce the Duty in the Text.</p>
+            <p>Old Age is Haſtening.</p>
+            <p>Death follows it.</p>
+            <p>And then comes the Judgment.</p>
+            <p>In old Age you will have no liſt to Remember God, in Death you cannot Remember God, and in Judgment you muſt be called to an account for not Remembring God, and therefore ſince it is thus, <hi>Re<g ref="char:EOLhyphen"/>member now thy Creator in the
+<pb n="8" facs="tcp:192295:13"/>
+Days of thy Youth.</hi> I ſhall open the Words, and then apply them.</p>
+            <p>
+               <hi>Firſt,</hi> I will begin with the Act, <hi>Remember;</hi> this is applied ſome<g ref="char:EOLhyphen"/>times to God; he is ſaid to Re<g ref="char:EOLhyphen"/>member; God Remembred <hi>Noah, Gen.</hi> 8.1. He Remembred <hi>Abra<g ref="char:EOLhyphen"/>ham, Gen.</hi> 19.29. He Remem<g ref="char:EOLhyphen"/>bred his Holy Covenant, <hi>Luke</hi> 1.72. But there is, to ſpeak proper<g ref="char:EOLhyphen"/>ly, no ſuch thing in God as Re<g ref="char:EOLhyphen"/>membring; for he that can never Forget, cannot be ſaid to Remem<g ref="char:EOLhyphen"/>ber.</p>
+            <p>But it is properly applied to Man; and ſo to Remember is ei<g ref="char:EOLhyphen"/>ther,</p>
+            <p>To call to Mind ſome Paſt; or,</p>
+            <p>To keep a thing in Mind for the Time to come.</p>
+            <p>Sometimes it is to call to Mind ſomething paſt; thus it is ſaid, that <hi>Peter Remembred the Words of Chriſt, Mat.</hi> 26.75. and as it Imports keeping in Mind for the Time to come, ſo it is ſaid, <hi>Re<g ref="char:EOLhyphen"/>member
+<pb n="9" facs="tcp:192295:13"/>
+the Sabbath Day to keep it Holy, Exod.</hi> 20.8. To Remem<g ref="char:EOLhyphen"/>ber, is put here in a double Op<g ref="char:EOLhyphen"/>poſition.</p>
+            <p>
+               <hi>Firſt,</hi> It is oppoſed to a For<g ref="char:EOLhyphen"/>getfulneſs of the Duty mentioned. And,</p>
+            <p>
+               <hi>Secondly,</hi> It is oppoſed to a ſlight Performance of it. Both which are Sin.</p>
+            <p>It is a Sin to forget God, and it is a Sin to have ſlight Thoughts of God; the Act ſhould be ſome way anſwerable to the Object; the Great God is thy Maker, and he ſhould not be put off with ſlightly Reſpects, <hi>Remember thy Creator.</hi>
+            </p>
+            <p>The manner in which the Duty is Inforced, is ſuch as does import, that it ought to be our chief Buſi<g ref="char:EOLhyphen"/>neſs. God does not uſe in his Word to put his <hi>Memento</hi>'s upon ſlight and indifferent Matters, but upon ſuch Duties as are Ne<g ref="char:EOLhyphen"/>ceſſary, and of the greateſt Im<g ref="char:EOLhyphen"/>portance. As,</p>
+            <p>
+               <pb n="10" facs="tcp:192295:14"/>
+               <hi>Firſt,</hi> To preſs us to Repen<g ref="char:EOLhyphen"/>tance, <hi>Rev.</hi> 2.5. <hi>Remember from whence thou art fallen, and repent, Ezek.</hi> 16.61. <hi>Thou ſhalt Remem<g ref="char:EOLhyphen"/>ber thy Ways, and be Aſhamed.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> To mind us of our latter End, <hi>Eccle.</hi> 11.8. <hi>If a Man Live many Years, and Rejoice in them all, yet let him Remember the Days of Darkneſs, for they ſhall be many.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> To preſs upon us the Duty of Sabbath Holineſs, <hi>Re<g ref="char:EOLhyphen"/>member the Sabbath Day to keep it Holy, Exod.</hi> 20.8.</p>
+            <p>
+               <hi>Fourthly,</hi> To keep in our Hearts the great Works of Providence, <hi>Pſalm</hi> 105.5. <hi>Remember the Mar<g ref="char:EOLhyphen"/>vellous Works that he hath done;</hi> and <hi>Mat.</hi> 16.9. ſays Chriſt, <hi>Re<g ref="char:EOLhyphen"/>member the Five Loaves that fed Five Thouſand, and how many Baſ<g ref="char:EOLhyphen"/>kets full he took up.</hi>
+            </p>
+            <p>
+               <hi>Fifthly,</hi> It is uſed to incite to a full and compleat Obedience, <hi>Num.</hi> 15.39. <hi>Remember all the Com<g ref="char:EOLhyphen"/>mandments
+<pb n="11" facs="tcp:192295:14"/>
+of the Lord to do them.</hi>
+            </p>
+            <p>
+               <hi>Sixthly,</hi> To ſtir us up to be mindful of himſelf, and therefore this Duty of all the reſt is charged both Negatively and Poſitively.</p>
+            <p>Negatively, <hi>Deut.</hi> 8.11. <hi>Be<g ref="char:EOLhyphen"/>ware that thou forget not the Lord thy God.</hi> And,</p>
+            <p>Poſitively, as in the Words of the Text, <hi>Remember now thy Crea<g ref="char:EOLhyphen"/>tor.</hi>
+            </p>
+            <p>But why doth God put a <hi>Me<g ref="char:EOLhyphen"/>mento</hi> upon this Duty here? Why, there is a Fivefold Reaſon for it.</p>
+            <p>
+               <hi>Firſt,</hi> To Intimate to us the Oppoſition of our corrupt Hearts to this great Duty; natu<g ref="char:EOLhyphen"/>rally Man cannot endure the Yoak of Obedience to God. He is with<g ref="char:EOLhyphen"/>out God in the World; God is not in all his Thoughts; therefore he calls us to Remember him.</p>
+            <p>
+               <hi>Secondly,</hi> The Sum of all Reli<g ref="char:EOLhyphen"/>gion lies in the Obſervation of this one Command; there can be no ſuch thing as Religion where God
+<pb n="12" facs="tcp:192295:15"/>
+is forgotten. <hi>Jacob</hi> gave a ſevere Charge to his Sons concerning <hi>Ben<g ref="char:EOLhyphen"/>jamin,</hi> becauſe he lay neareſt his Heart; the Honor of God lies neareſt his Heart of any thing; and no Man can Honor him, that doth not Remember him; therefore he gives ſuch a ſtrict Charge about it. It is this that frames our Spirits for all other Duties, and makes them fit for every good Work; Sin ne<g ref="char:EOLhyphen"/>ver prevails more upon our Hearts than when God is ſhut out of our Thoughts; the Children of <hi>Iſrael</hi> did Evil, and forgat the Lord, therefore <hi>Remember thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> It implies, that no Age is ſo prone to forget God, as that of Youth. Youthful Pleaſures, and youthful Luſts and Vanities, do fre<g ref="char:EOLhyphen"/>quently turn the Heart away from God, therefore <hi>Solomon</hi> ſays, <hi>Child<g ref="char:EOLhyphen"/>hood and Youth are Vanity,</hi> in the Words before the Text. It is Va<g ref="char:EOLhyphen"/>nity, both</p>
+            <p>In a Natural, and</p>
+            <p>
+               <pb n="13" facs="tcp:192295:15"/>In a Moral Reſpect.</p>
+            <p>It is Vanity in a Natural Re<g ref="char:EOLhyphen"/>ſpect, as being Frail and Mortal. Though by the Courſe of Nature, Young Ones may think to Live long, yet by reaſon of the Frailty of Nature, they may Die before the Eldeſt; many Younger than you lye yonder Rotting in their Graves. Now thou haſt the Seeds of Death in thee, and thou haſt Sin the Cauſe of Death cleaving to thee, and the Sentence lies a<g ref="char:EOLhyphen"/>gainſt thee, and therefore tho' thou mayeſt pleaſe thy ſelf with the Thoughts of Living many Years, like the Fool in the Goſpel, yet thou mayeſt Dye before to Mor<g ref="char:EOLhyphen"/>row, as he did. <hi>Thou Fool, this Night ſhall thy Soul be requi<g ref="char:EOLhyphen"/>red of thee.</hi> And as Youth is Va<g ref="char:EOLhyphen"/>nity in a Natural Senſe, ſo it is in a Moral Senſe, for it is Tain<g ref="char:EOLhyphen"/>ted and Defiled with Luſt and Corruption all over. Thou art a Child of Wrath from the
+<pb n="14" facs="tcp:192295:16"/>
+Womb; under a Damning Guilt, before ever thou didſt com<g ref="char:EOLhyphen"/>mit one actual Sin, <hi>For by the Offence of one Judgment came upon all Men to Condemnation, Rom.</hi> 5.18. But alas! How much Guilt haſt thou Contracted by thy Actual Sin, thy Lying, thy Swearing, thy Drunkenneſs, thy Gluttonny, thy Pride and Envy, thy Lewdneſs and Uncleanneſs, thy ſinful Mirth and Levity, thy Slothfulneſs and Vanity, thy Stub<g ref="char:EOLhyphen"/>bornneſs and Obſtinacy? Theſe are the common Sins of Youth. And no wonder that that Soul is prone to forget God, where theſe Luſts reign; therefore <hi>Remember thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Fourthly,</hi> It is a Duty of the Greateſt Equity, not only from the Will of him that Commands it, but from the Reaſon of the Command it ſelf, which Conſults Man's Good as well as God's Glory, and is it not Equal, that we ſhould
+<pb n="15" facs="tcp:192295:16"/>
+Remember that God that never forgets us, and that we ſhould mind his Glory who is mindful of our Good? Beſides, how Equal is it, that God, who is the Firſt Cauſe, the Chief Good, and Laſt End, ſhould be firſt owned, beſt lov<g ref="char:EOLhyphen"/>ed, and moſt ſerved? And is it not Equal, that Time, being ſo rare a Jewel, ſo great a Betruſtment, ſo Rich a Talent, ſhould be employed for him who gave it; and who can either continue it, or cut it ſhort, as we either lay it out upon God, or profuſely laviſh it upon our Luſts? Therefore <hi>Remember thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Fifthly,</hi> God gives us this <hi>Me<g ref="char:EOLhyphen"/>mento,</hi> to mind us of that ſtrict Account we muſt e're long give to him for all our Time; Youth is to Account to God for a few Years, as well as Old Age is for many more; and therefore the Wiſe Man warns Young Ones of a Judg<g ref="char:EOLhyphen"/>ment Day for them, as well as for
+<pb n="16" facs="tcp:192295:17"/>
+thoſe of more Years, <hi>Eccleſ.</hi> 11.9. <hi>Rejoice, O Young Man, in thy Youth, — But know that for all thoſe things, God will bring thee to Judgment.</hi> If we do not Remember to keep this Precept, God will Remember to puniſh the breach of it. If we forget our Obedience to God, he will not forget to puniſh our Diſobedience; and therefore God puts a <hi>Memen<g ref="char:EOLhyphen"/>to</hi> upon this Command, that ſo we may be Awakened to our Du<g ref="char:EOLhyphen"/>ty, from the Senſe of an Approach<g ref="char:EOLhyphen"/>ing Judgment. <hi>Remember thy Creator.</hi>
+            </p>
+            <p>But it is not barely an Act of the Mind that is here called for; it is not enough meerly for you, to Remember or Think of God, for that is done in Hell; they all Remember God there; the Memo<g ref="char:EOLhyphen"/>ry of the Damned ſhall then be more quick and ſtrong than ever, and ſhall bring all your Sins into an Eternal view. Now the Sins
+<pb n="17" facs="tcp:192295:17"/>
+of Youth are committed and for<g ref="char:EOLhyphen"/>gotten by us, and we are apt to think God forgets them too, and that they ſhall never be remem<g ref="char:EOLhyphen"/>bred more; they ſay, <hi>Tuſh, the Lord ſeeth us not, Ezek.</hi> 8.12. But mark what God ſays, <hi>Pſalm</hi> 50. <hi>ver.</hi> 21. <hi>Theſe things haſt thou done</hi> (ſpeaking of their Sins before) <hi>Theſe things haſt thou done, and I kept Silence — But I will Reprove thee, and ſet them in Order before thine Eyes.</hi> Every Sin ſhall be ſet in Order, and come into Remembrance, in that Day. <hi>Son,</hi> ſays <hi>Abraham</hi> to the Rich Man, <hi>Son, Remember, Luke</hi> 16.25. pointing him back to his Luſts. If Sinners could but forget in Hell, it would be a Comparative Happineſs. A Loſs though never ſo great, yet when it is forgotten the trou<g ref="char:EOLhyphen"/>ble of it ceaſes It would be an eaſe to Sinners in Hell, if they could never think of God more, and
+<pb n="16" facs="tcp:192295:18"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="17" facs="tcp:192295:18"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="18" facs="tcp:192295:19"/>
+if they could raze out the Remem<g ref="char:EOLhyphen"/>brance of Chriſt and the Goſpel out of their Minds, and forget that ever they heard of a Redeem<g ref="char:EOLhyphen"/>er; to Remember what a God, what a Creator, what a Redeem<g ref="char:EOLhyphen"/>er, what a Heaven, what a Hap<g ref="char:EOLhyphen"/>pineſs they had tendered to them, and therefore might have ſecured, but would not; to Remember what Calls they were once under, to Convert and Turn to God, and Cloſe with Chriſt and Live, O how will this wound and afflict in that Day; I had once the Means of Grace, I heard the Preacher often Calling and Wooing me to leave my Luſts and come to Chriſt, I have many times felt the Con<g ref="char:EOLhyphen"/>victions and Strivings of the Spi<g ref="char:EOLhyphen"/>rit in me, under the Word, to bring it about, and had I had Wiſ<g ref="char:EOLhyphen"/>dom to Conſider, and a Heart to Comply, O how Happy had I been! I might have been one a<g ref="char:EOLhyphen"/>mongſt the Bleſſed Saints in Hea<g ref="char:EOLhyphen"/>ven,
+<pb n="19" facs="tcp:192295:19"/>
+who are here Tormented a<g ref="char:EOLhyphen"/>mongſt Damned Spirits. O how often have I had Life and Death ſet before me, and therefore this Miſery is the Fruit of my own Choice!</p>
+            <p>To Remember Loſt and Paſt Opportunities, O how will this Torment! Fool that I was, to have ſuch a Price put into my Hands to get Wiſdom, as once I had, and yet to have no Heart to it. Wretch that I was, that I could find Time for every thing elſe, but no Time for Eternity. I had Time to Eat, and Drink, and Sleep, and to mind the Work of my Calling, but no Time to Work out my Salvation. I had Time for my Mirth, and my Games, and my Sports, and Pleaſures, and Youth<g ref="char:EOLhyphen"/>ful Vanities, but I could find no Time for God and my own Soul.</p>
+            <p>To Remember upon what eaſie Terms they might have Eſcaped Wrath and Miſery, and have been
+<pb n="20" facs="tcp:192295:20"/>
+Happy for ever, will not this wound and torment? I was not put up<g ref="char:EOLhyphen"/>on what was Impoſſible; Chriſt told me, his Yoke was Eaſie and his Burden Light, that his Commands were not grievous; it was but forſaking my Luſts, and Cordially accepting of Chriſt for my Saviour and Lord, and I had been Happy for ever; and how reaſonable was this? If he had bid me do ſome great Matter, ſhould I not have done it? How much more then when he laid upon me no other Conditi<g ref="char:EOLhyphen"/>ons but theſe, Believe and be Sa<g ref="char:EOLhyphen"/>ved, Seek my Face and Live. <hi>Remember thy Creator now in the Days of thy Youth.</hi>
+            </p>
+            <p>O how bereft of Judgment was I, when I thought my ſelf too Young for this Work, when I cal<g ref="char:EOLhyphen"/>led God a Hard Maſter, and his Service Bonds and Bondage, when I Cenſured the Holy Ways of God as needleſs Preciſeneſs,
+<pb n="21" facs="tcp:192295:20"/>
+and caſt off his Holy Laws as too Severe and Strict? O Curſed Wretch that I was and am, not to be Perſwaded to Own and Imbrace them.</p>
+            <p>To Remember what it was that they Choſe in lieu of Bleſſedneſs, and what they parted with Hea<g ref="char:EOLhyphen"/>ven and Glory for, this will Amaze and Confound a few Short-li<g ref="char:EOLhyphen"/>ved Pleaſures, and Carnal De<g ref="char:EOLhyphen"/>lights, a little Senſual Satisfaction of the Fleſh, a few Pleaſant Cups, or Sweet Morſels, a Heap of Gold, or a Puff of Honour; this is all I had for my Immortal Soul, and Eternal Salvation, and for a God who is the Chief Good, and in whoſe Favour is Life; ſo that you ſee God is Remembred in Hell. Nay, let me ſay it, he is in ſome Sence Remembred more there than he is here; for here the Ruin is ſo Diſtracted, with divers Luſts and Senſual Vanities, that they divert the Thoughts from their Proper
+<pb n="22" facs="tcp:192295:21"/>
+Object, but in Hell there is no<g ref="char:EOLhyphen"/>thing to flatter the Sences, no Ob<g ref="char:EOLhyphen"/>jects to divert them; God is per<g ref="char:EOLhyphen"/>petually Remembred there, not as a Duty, but as a Puniſhment; not as a Comfort, but as a Torment. And let me tell you, it will be one of the greateſt Torments of Sin<g ref="char:EOLhyphen"/>ners in Hell, to Remember what a God they have loſt, what a Heaven they have miſſed, what precious Souls they have undone.</p>
+            <p>But this <hi>Momento</hi> here in the Text, is a very Comprehenſive Duty; in this Place it takes in the Whole of Religion, it com<g ref="char:EOLhyphen"/>prehends the Whole Duty of Man.</p>
+            <p>It is uſual with the Spirit of God in Scripture, to include all the Operations of the Soul, in the mention of one ſingle Act, and to denominate the Whole of Re<g ref="char:EOLhyphen"/>ligion, by ſome one Chief Part of it, which is a Principle Productive of all the reſt; ſometimes we are Commanded to love God, ſome<g ref="char:EOLhyphen"/>times
+<pb n="23" facs="tcp:192295:21"/>
+to fear God, ſometimes to ſeek God, and here in the Text to remember God, and in any one of theſe, all the reſt are included; ſo that this Injunction, to <hi>Remember thy Creator,</hi> points us to a five<g ref="char:EOLhyphen"/>fold Duty, without which it is not done as a Duty.</p>
+            <p>Firſt, This Remembring implies and ſuppoſes Knowledge; you can never Remember your Creator, un<g ref="char:EOLhyphen"/>leſs you Know who he is; the Me<g ref="char:EOLhyphen"/>mory is the Store-Houſe of the Soul, where known Truths are Treaſured up. Chriſt ſays of the Scribe inſtructed for the King<g ref="char:EOLhyphen"/>dom of Heaven, that <hi>he brings out of his Treaſury Things New and Old.</hi>
+            </p>
+            <p>Knowledge is the firſt Step to Salvation; he <hi>will have all Men to be Saved, and come to the Know<g ref="char:EOLhyphen"/>ledge of the Truth,</hi> 1 <hi>Tim.</hi> 2.4. and therefore the great Deſign of the Devil is to blot out the Know<g ref="char:EOLhyphen"/>ledge of God from the Mind; his Kingdom is a Kingdom of Dark<g ref="char:EOLhyphen"/>neſs,
+<pb n="24" facs="tcp:192295:22"/>
+and he rules in the Darkneſs of this World; for he can lead the Blind which Way he will; and therefore he that doth not know God, cannot remember him; and he cannot be rightly known but in Jeſus Chriſt. If one had a Knowledge of God as clear as that of the Angels, who never ſinned, yet he cannot be rightly known by us but in Jeſus Chriſt; with<g ref="char:EOLhyphen"/>out the Knowledge of Chriſt, we ſhall be miſerable with all our Knowledge. Though the Knowledge of Chriſt be not ſim<g ref="char:EOLhyphen"/>ply neceſſary to the Angels that never ſinned, and therefore needed not a Mediator, yet it was neceſſary for us who are by Sin Obnoxious to God's Wrath, and ſo need a Reconciler, becauſe of our Enmity; and a Redeemer, be<g ref="char:EOLhyphen"/>cauſe of our Slavery; a Refiner, becauſe of our Filthineſs; and a Mediator, becauſe of our Diſtance, that he may bring us to God;
+<pb n="25" facs="tcp:192295:22"/>
+and therefore the Knowledge of Chriſt is as neceſſary to Happi<g ref="char:EOLhyphen"/>neſs, as the Knowledge of God; both are joined together as a needful Means of Salvation. <hi>This is Life Eternal, to know Thee the only true God, and Je<g ref="char:EOLhyphen"/>ſus Chriſt whom thou haſt ſent,</hi> Joh. 17.3. If we do not know God, we cannot know what is our Du<g ref="char:EOLhyphen"/>ty to him; and if we do not know Chriſt, we cannot know the way of Performing that Duty; the more we come to underſtand the Nature of God, and the Offices of Chriſt, the more we ſhall know of our Duty, and how to do it. There can be no Right Knowledge of God, but in and by Chriſt, <hi>He is the True Light that lightens every Man that comes into the World,</hi> John 1.9. E<g ref="char:EOLhyphen"/>very One that partakes of this Light hath it from Chriſt. Na<g ref="char:EOLhyphen"/>tural Light is from Chriſt, and Spiritual Light much more.
+<pb n="26" facs="tcp:192295:23"/>
+               <hi>No Man hath ſeen God at any time; the only Begotten Son, who is in the Boſom of the Father, he hath Declared him.</hi> John 1.18. And therefore this Remembring thy Creator, includes in it the Sa<g ref="char:EOLhyphen"/>ving Knowledge of God in Chriſt.</p>
+            <p>Secondly, This Remembring includes Faith; he cannot be ſaid to Remember God, who doth not Depend upon God, and Truſt in him; therefore <hi>David</hi> Expreſ<g ref="char:EOLhyphen"/>ſeth his Faith in God, by Remem<g ref="char:EOLhyphen"/>bring of him. <hi>Pſalm</hi> 20.7. <hi>Some truſt in Chariots, and ſome in Horſes, but we will remember the Name of the Lord our God;</hi> that is, we will truſt in his Name; others truſt in Creatures, but we will truſt in the Creator; others rely on an Arm of Fleſh, but we will rely upon the Name of the Lord; then God is Remem<g ref="char:EOLhyphen"/>bred aright, when the Remem<g ref="char:EOLhyphen"/>brance of him is accompanied with Faith and Truſting. Faith in
+<pb n="27" facs="tcp:192295:23"/>
+God, is the beſt, the trueſt way of Remembring of God.</p>
+            <p>It is ſaid of <hi>Iſrael,</hi> Pſalm 78.32. <hi>They believed not for his Wondrous Works;</hi> but when he ſlew them, then they ſought him, and they remembred that God was their Rock, and the High God their Redeemer; that is, then they believed. So Iſaiah 26.8. <hi>The Deſire of our Souls is to thy Name, and to the Rememberance of thee;</hi> that is, to keep up the Glory of thy Name, by Acting Faith and Confidence in thy Word and Promiſes.</p>
+            <p>
+               <hi>Thirdly,</hi> This Remembrance im<g ref="char:EOLhyphen"/>plies Repentance; Forgetfulneſs and Impenitence always go to<g ref="char:EOLhyphen"/>gether; Repentance is a Calling Sin to Remembrance, with a Due Sence of the Evil of it, and Sorrow for it, as it is done againſt God; and how can this be where God is for<g ref="char:EOLhyphen"/>gotten? If there be no right Con<g ref="char:EOLhyphen"/>ceptions
+<pb n="28" facs="tcp:192295:24"/>
+of the Nature of God, His Omniſcience, His Holineſs and Juſtice, there can be no Repentance for Sinning againſt him. They are frequent Remembrances, freſh Views of God, that work to Repentance and Self-abhorring. So it did in <hi>Job,</hi> Chap. 42.5, 6. <hi>Mine Eye ſeeth Thee; therefore I abhor my Self, and Repent in Duſt and Aſhes.</hi>
+            </p>
+            <p>The Clearer Manifeſtations a Soul hath of God, the Deeper will its Humiliation for Sin be. When <hi>Peter</hi> remembred the words of Chriſt, then he went out and Wept bitterly. Till we Remem<g ref="char:EOLhyphen"/>ber and Conſider God in the Pu<g ref="char:EOLhyphen"/>rity of his Holineſs, the Severity of his Juſtice, the Tenderneſs of his Mercy, the Inevitableneſs of his Wrath, we can never truly Repent of Sin.</p>
+            <p>
+               <hi>Fourthly,</hi> This Remembring of God, carries Love in it. Though an Object be every Way Amiable,
+<pb n="29" facs="tcp:192295:24"/>
+and made up of Delights, yet it can never be let into the Affecti<g ref="char:EOLhyphen"/>ons, ſo long as it is ſhut out of the Thoughts; nor on the other hand, can it be with any pleaſure Re<g ref="char:EOLhyphen"/>membred, when it has no room in our reſpect. God's Deſign and End is not ſo much to be Remem<g ref="char:EOLhyphen"/>bred by us, as to be Loved by us; and his beſpeaking a room in our Thoughts, is that he may Dwell in our Hearts.</p>
+            <p>The Higheſt Act of Honour the Creature can do to God, is to truſt him, and love him. Thoſe that Diſtinguiſh the Order of the An<g ref="char:EOLhyphen"/>gels, place the Seraphims above the Cherubims, becauſe they have a more ardent Love, as well as a more clearer Light; a Remem<g ref="char:EOLhyphen"/>brance of God, without a ſuitable reſpect, will neither be Profitable nor Durable; for when any other Object Poſſeſſes our Affections, God is ſoon forſaken and forgot<g ref="char:EOLhyphen"/>ten; then a Man Remembers God
+<pb n="30" facs="tcp:192295:25"/>
+aright, when his Affections are ſuitable to his Apprehenſions.</p>
+            <p>As it is with Sin, a Man hath not the right Notion of Sin, unleſs he feel the Weight of it, and loath it. <hi>Then ſhall ye Remember your own Evil Ways, — and ſhall Loath your Selves for your Iniquity, Ezek.</hi> 36.31.</p>
+            <p>Or as it is with the Word of God, no Man remembers the Word aright, if he do not Believe it, and Love it. So no one can have right Apprehenſions of God, who has not Choice Affection to him, and his Chief Delight in him.</p>
+            <p>Look what that is which we Love beſt, and we always think of that moſt; what a Man Loves beſt, is his Chief Good; and his Chief Good is his Treaſure; and <hi>where the Treaſure is, there the Heart will be,</hi> Chriſt ſays.</p>
+            <p>What we Love, we Delight to think upon; as what we hate, we ſoon forget. So it is ſaid of <hi>Jeſhu<g ref="char:EOLhyphen"/>run,</hi>
+               <pb n="31" facs="tcp:192295:25"/>
+Deut. 32.15. <hi>He forgat God which made him, and lightly eſteemed the Rock of his Salva<g ref="char:EOLhyphen"/>tion.</hi> He lightly eſteemed him, and therefore ſoon forgets him.</p>
+            <p>If one that is but a common Acquaintance with you be Abſent, you ſoon forget him; out of Sight out of Mind; but a boſom Friend, a dear Friend, a Friend that is as a Man's own Soul, you cannot for<g ref="char:EOLhyphen"/>get ſuch a one; Love will remem<g ref="char:EOLhyphen"/>ber him, when the Eye cannot ſee him, and makes him Preſent, when he is Abſent; nay, he lives in the Mind, when perhaps he lies dead in the Grave; therefore I Pray mind that Precept of our Lord, <hi>Matth.</hi> 22. ver. 37. <hi>Thou ſhalt Love the Lord with all thy Heart, and with all thy Soul, and with all thy Mind.</hi> Mark ye, it is not ſaid only, Thou ſhalt Love God with all thy Heart, and with all thy Soul, but with all thy Mind; we Love him with the
+<pb n="32" facs="tcp:192295:26"/>
+Heart and Soul, when we Devote our ſelves to him; and we Love him with our Mind, when we have him daily in our Thoughts and Remembrance; <hi>the Deſire of our Souls is to thy Name, and to the Remembrance of thee,</hi> Iſa. 26.8.</p>
+            <p>
+               <hi>Fifthly,</hi> This Remembring of him implies Obedience, Obedi<g ref="char:EOLhyphen"/>ence to his Will; the Will of God is the Rule of Obedience, and his Will is made known in his Word. Obedience is Knowledge digeſted into Affection and Pra<g ref="char:EOLhyphen"/>ctice. Hence is that Counſel of <hi>David</hi> to his Son <hi>Solomon, Know thou the God of thy Father, and ſerve him with a perfect Heart, and with a willing Mind,</hi> 1 <hi>Chro.</hi> 28.9. <hi>Paul</hi>'s firſt Queſtion when touched his Heart was, <hi>Who art thou, Lord?</hi> And then the next was, <hi>What wilt thou have me to do? Acts</hi> 9.5, 6. to ſhew us, that all Obedience is produced by Know<g ref="char:EOLhyphen"/>ledge. As Ignorance is the Cauſe
+<pb n="33" facs="tcp:192295:26"/>
+of Sin, ſo a Right Sence of God, is the beſt Antidote againſt it; for this begets Love; and the more God is beloved, the more readi<g ref="char:EOLhyphen"/>ly he will be obeyed; a weak Con<g ref="char:EOLhyphen"/>ception, and a fruitleſs Remem<g ref="char:EOLhyphen"/>brance of God, Glorifies him no more, than a Painter does the Perſon whoſe Picture he draws.</p>
+            <p>The Glory of God conſiſts not in the lifeleſs Notions of him, but in active Conformity to him; a Natural Man may have ſome Pleaſure in knowing the Nature of God; Ay, but he cares not for knowing the Ways of God. Job, 21.14. They ſay, — <hi>we De<g ref="char:EOLhyphen"/>ſire not the Knowledge of thy ways.</hi> He would own him in his Mercy and Goodneſs, but he hath no re<g ref="char:EOLhyphen"/>gard to his Precepts, Mercy is ſui<g ref="char:EOLhyphen"/>table to our Wants but Obedience is repugnant to the Intereſt of the Fleſh. That Knowledge of God which doth not take root in the Heart, and grow up into Obedi<g ref="char:EOLhyphen"/>ence
+<pb n="34" facs="tcp:192295:27" rendition="simple:additions"/>
+in the Life, it is Blindneſs and Ignorance in God's Account, whatever our Notions of it may be.</p>
+            <p>Thoſe Gentiles which are ſaid to know God, <hi>Rom.</hi> 1.21. they are ſaid, <hi>ver.</hi> 28. not to know God: The Sons of <hi>Eli</hi> could not but know the Lord, having ſuch a good Father, and being the Lord's Prieſts: But yet becauſe they were Looſe and Vile in their Carriage and Behaviour, there<g ref="char:EOLhyphen"/>fore they are ſaid not to know the Lord, 1 <hi>Sam.</hi> 2.12. As there can be no Obedience where God is known; ſo that Knowledge of God ſtands for nothing which is not fruitful in Obedience.</p>
+            <p>It is a Bleſſed thing ſo to know God, and ſo to Remember him, as not to forget his Precepts. It is <hi>Moſes</hi> his Counſel to that People, and it is mine to you; <hi>Beware that thou forget not the Lord thy God, Deut.</hi> 8.11. How is that? The next Words tell you, <hi>in not
+<pb n="35" facs="tcp:192295:27"/>
+keeping his Commandments;</hi> that is, forgetting of God. Diſobedi<g ref="char:EOLhyphen"/>ence is called a Forgetting God; <hi>They forgat God their Saviour, Pſalm</hi> 106.21. And we are ſaid to forget his Words, when we do not <hi>Remember his Com<g ref="char:EOLhyphen"/>mandments to do them, Pſalm</hi> 103.18. And that which here in the Text is called <hi>Remembring thy Creator,</hi> is in <hi>Chap.</hi> 12. <hi>Ver.</hi> 13. expreſſed by <hi>Fearing God and keeping his Commandments;</hi> which is ſaid to be the Whole Duty of Man.</p>
+            <p>If the Authority of God be caſt off, and we make not his Word the Rule of our Lives, he is as much forgotten as if he were utterly ſhut o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of our thoughts; therefore ſays <hi>David, Pſal.</hi> 119.55. <hi>I have remem<g ref="char:EOLhyphen"/>bred thy Name, O Lord, —and have kept thy Law.</hi>
+            </p>
+            <p>Thus you ſee how much this <hi>Remembring thy Creator</hi> carries in it; to wit,
+<list>
+                  <pb n="36" facs="tcp:192295:28"/>
+                  <item>Knowledge of God.</item>
+                  <item>Faith in God.</item>
+                  <item>Repentance toward God.</item>
+                  <item>Love to God. And,</item>
+                  <item>Obedience to the Will of God.</item>
+               </list>
+            </p>
+            <p>When you Know God, ſo as to Believe in him; and Believe in God, ſo as to Repent of Sinning againſt him; and Repent, ſo as to expreſs your Love to him; and Love God, ſo as to conform to his Will, and keep his Command<g ref="char:EOLhyphen"/>ments; then is this Duty done as it ought, and you therein anſwer the Call in the Text, <hi>Remember thy Creator.</hi>
+            </p>
+            <p>And that brings me to the</p>
+            <p>Second thing, The Object to be remembred, <hi>thy Creator: Re<g ref="char:EOLhyphen"/>member thy Creator.</hi> In the He<g ref="char:EOLhyphen"/>brew Text it is; <hi>Remember thy Cre<g ref="char:EOLhyphen"/>ators,</hi> in the Plural Number; ſo it is uſed frequently, <hi>Gen.</hi> 1.1. <hi>Gods Created the Heaven and the Earth;</hi> ſo <hi>Iſa.</hi> 54.5. <hi>Thy Makers is thy Husband,</hi> in the Plural;
+<pb n="37" facs="tcp:192295:28"/>
+ſo <hi>Job</hi> 35.10. <hi>None ſaith, where is God my Makers.</hi>
+            </p>
+            <p>And its being thus Plurally ex<g ref="char:EOLhyphen"/>preſſed, it is very Emphatical; for it points us to Father, Son and Spirit; all the Three made Man; they were our Makers.</p>
+            <p>The Father made Man, <hi>Gen.</hi> 6.7. <hi>The Lord ſaid, I will Deſtroy Man whom I have Created.</hi>
+            </p>
+            <p>The Son made Man, <hi>Col.</hi> 1.16. <hi>By him were all things Created in Heaven and Earth.</hi>
+            </p>
+            <p>The Holy Spirit made Man <hi>Job</hi> 33 4. <hi>The Spirit of God hath made me, and the Breath of the Almighty hath given me Life.</hi>
+            </p>
+            <p>There is a great Truth (which will give you to underſtand this) I ſay, there is a great Truth in that Maxim amongſt Divines, That the Works of the Trinity, <hi>ad ex<g ref="char:EOLhyphen"/>tra,</hi> towards the Creatures, are un<g ref="char:EOLhyphen"/>divided. All the Three, Father, Son and Spirit, ſate in Counſel to make Man; <hi>Let us make Man in
+<pb n="38" facs="tcp:192295:29"/>
+our Image,</hi> in the Plural Number, <hi>Gen.</hi> 1.22. And it is very obſerva<g ref="char:EOLhyphen"/>ble, that though our Makers here are expreſſed Plurally, yet the Image is put in the Singular Num<g ref="char:EOLhyphen"/>ber; <hi>Let us make Man in our Image;</hi> not in our Images; but in our Image to note, that though the Per<g ref="char:EOLhyphen"/>ſons are Three, yet the Image is but One: They have but one Na<g ref="char:EOLhyphen"/>ture, and ſo are but one God; therefore it is ſaid, <hi>Mal.</hi> 2.13. <hi>Have we not all one Father? Hath not one God Created us?</hi> Father, Son and Spirit, and yet but one God; and ſhall we not Remember him that made us? <hi>Remember thy Creator.</hi> It is a Term that gives a Claim; God is thy Creator, and that gives him a Right to thee. <hi>All Souls are mine; as the Soul of the Father, ſo alſo the Soul of the Son is mine, Ezek.</hi> 18.4. The Soul, that is, the Per<g ref="char:EOLhyphen"/>ſon, a Part being put for the Whole frequently in Scripture. <hi>Let every
+<pb n="39" facs="tcp:192295:29"/>
+Soul be Subject to the Higher Pow<g ref="char:EOLhyphen"/>ers.</hi> All Perſons are mine, whe<g ref="char:EOLhyphen"/>ther Father or Son, whether Old or Young, I am their Crea<g ref="char:EOLhyphen"/>tor, I am their Common Father; and this gives God a juſt Right to thy Soul, to thy Body, to thy whole Perſon, to thy Life, to thy Strength, to thy Talents, to all thou Art, and all thou Haſt, and to all thou canſt Do; for he is thy Creator. He doth not ſay here, Remember thy God, but <hi>Remem<g ref="char:EOLhyphen"/>ber thy Creator.</hi> God is not eve<g ref="char:EOLhyphen"/>ry one's God; we have loſt him by the Fall; that Relation is cut off by Sin, till Grace reſtore it: But though he be not every one's God, yet he is every one's Creator; Fallen Creatures are his Creatures ſtill as much as ever, and there<g ref="char:EOLhyphen"/>fore thy Remembring him as thy Creator, is that that brings thee to Claim him as thy God: Thou oweſt thy Time, thy whole Time, to him; for thou art Created eve<g ref="char:EOLhyphen"/>ry
+<pb n="40" facs="tcp:192295:30"/>
+Day by him; for Preſervation is a continual Creation. Thou oweſt thy Self and Service to this Creator. As thou art what thou art by his Power and Goodneſs, ſo thou oughteſt to live to his Glo<g ref="char:EOLhyphen"/>ry. He made thee after his own Image; and as thou art hereby more capable, ſo thou art more obliged to Remember him, and Ho<g ref="char:EOLhyphen"/>nour him.</p>
+            <p>
+               <hi>Thirdly,</hi> Here is the limitation of the Time when he muſt be Re<g ref="char:EOLhyphen"/>membred, that is now: <hi>Remem<g ref="char:EOLhyphen"/>ber now thy Creator;</hi> which now ſometimes uſed in a more Extend<g ref="char:EOLhyphen"/>ed Senſe, and ſometimes in a more Reſtrained Senſe.</p>
+            <p>
+               <hi>Firſt,</hi> In a more Extended Senſe; it is taken for the preſent Life, all the Time a Man lives in this World; and then it is oppoſed to Death. Death is no time to Re<g ref="char:EOLhyphen"/>member God in; ſo ſays the Pſal<g ref="char:EOLhyphen"/>miſt, <hi>Pſal.</hi> 6.5. <hi>In Death there is no Remembrance of thee, in
+<pb n="41" facs="tcp:192295:30"/>
+the Grave who ſhall give thee thanks?</hi> It is the ſame with that of the Wiſe Man, <hi>Eccleſ.</hi> 9.10. <hi>There is no Work, nor Device, nor Knowledge, nor Wiſdom in the Grave whether thou goeſt;</hi> that is, when Death comes, it cuts off all our Opportunities.</p>
+            <p>There is no Work in the Grave, that is no place of Buſineſs; there is none can be done by us, and therefore there is none required of us.</p>
+            <p>And as there is no Work, ſo there is no Device; as there is no<g ref="char:EOLhyphen"/>thing to be done to procure Salva<g ref="char:EOLhyphen"/>tion, ſo there is no Deviſing any way to eſcape Damnation; you cannot lye and think there: <hi>He returns to his Earth, in that ve<g ref="char:EOLhyphen"/>ry Day his thoughts periſh, Pſal.</hi> 146.4.</p>
+            <p>Nor is there any Knowledge there either of Good or Evil, <hi>For the Dead know not any thing, Eccl.</hi> 9.5. And if there be no Work,
+<pb n="42" facs="tcp:192295:31"/>
+nor Device, nor Knowledge, there can be no Wiſdom. Wiſdom is profitable to Direct, but there is none of this in the Grave.</p>
+            <p>Wiſdom lyes in Chuſing a Right End, and Purſuing it by Due Means; but there is none of this in the Grave.</p>
+            <p>Wiſdom lyes in finding and im<g ref="char:EOLhyphen"/>bracing the Chief Good; but there is none of this Wiſdom in the Grave.</p>
+            <p>When Death comes it puts an end to all your Opportunities: In Scripture Opportunity is often called a Door, 1 <hi>Cor.</hi> 16.9. <hi>A great Door is opened to me.</hi> 2 <hi>Cor.</hi> 2.12. <hi>A Door was opened to me of the Lord.</hi> When God ſends and makes way for the Goſpel, and inlarges the Hearts of Mini<g ref="char:EOLhyphen"/>ſters to Preach the Goſpel, and opens the Hearts of People to receive the Goſpel, then a Door is opened: Now if Death ſhuts this Door, it puts an end to
+<pb n="43" facs="tcp:192295:31"/>
+all our Opportunities. And is there not a time coming when this Door, this open Door, will be ſhut: Pray Read <hi>Luke</hi> 13.24, 25. <hi>Strive to Enter in at the ſtrait Gate, for many will ſeek to En<g ref="char:EOLhyphen"/>ter in and ſhall not be able; when once the Maſter of the Houſe is riſen up, and hath ſhut to the Door, and ye begin to ſtand with<g ref="char:EOLhyphen"/>out the Door, and knock, ſay<g ref="char:EOLhyphen"/>ing, Lord, Lord, open to us; he ſhall anſwer and ſay to you, I know you not whence ye are;</hi> the Maſter of the Houſe is riſen up, and the Door of Opportunity is ſhut. So <hi>Matt.</hi> 25.10. it is ſaid of the Fooliſh Virgins, <hi>While they went to Buy Oyl, the Bridegroom comes, and they that were ready went in with him, and the Door was ſhut;</hi> a ſad word.</p>
+            <p>Now you Read in Scripture of ſeveral Doors which will all be ſhut in that Day; there is the Door of Goſpel Grace, <hi>Rev.</hi> 3.18. <hi>I
+<pb n="44" facs="tcp:192295:32"/>
+have ſet before you an open Door, and no Man can ſhut it;</hi> but when Death comes that will ſhut it.</p>
+            <p>There is a Door of Faith, <hi>Acts</hi> 14.27. <hi>He opened a Door of Faith unto the Gentiles;</hi> that is, he brought them to Believe in Chriſt; but when Death comes the Door of Faith ſhall be ſhut.</p>
+            <p>There is a Door of Hope, <hi>Hoſ.</hi> 2.15. <hi>I will give them the Valley of</hi> Achor <hi>for a Door of Hope;</hi> but when Death comes, this Door ſhall be ſhut for them that never enter'd into the Good Land, the Heavenly <hi>Canaan</hi> in this Life, <hi>Whoſe Hope ſhall be cut off, and whoſe Truſt ſhall be a Spider's Web, Job</hi> 8.14.</p>
+            <p>There is the Door of the Heart, where God ſtands and knocks; <hi>Rev.</hi> 3.20. <hi>Behold I ſtand at the Door and knock.</hi> And, my Bre<g ref="char:EOLhyphen"/>thren, God is this Day knocking at the Door of the Hearts of you Young Ones: He is now knocking
+<pb n="45" facs="tcp:192295:32"/>
+by his Word, and what does he ſay? <hi>Remember now thy Creator. If any Man hear my Voice, and open the Door, I will come in to him, and Sup with him, and he with me;</hi> that is, I will give him the Saving Influences of my Spirit; he ſhall have Communion with me in Grace here, and Glory hereafter. O how ſhould you Young Ones beg now that God would <hi>Put in his Hand by the hole of the Door, that you may open to him. Open ye Gates, ſtand open ye everlaſting Doors, that the King of Glory may come in, Pſal.</hi> 24.7. Rowl away the Stone, thoſe Sins and Luſts that keep Chriſt out of the Heart; and do it now, leſt God give you up to the Hardneſs of your Heart, and then when Death comes, you Periſh in your Sins.</p>
+            <p>Again, there is a Perſonal Door in Scripture; that is, the Lord Chriſt: <hi>I am the Door; by me if any Man enter in, he ſhall be ſa<g ref="char:EOLhyphen"/>ved, <pb n="46" facs="tcp:192295:33"/>
+John</hi> 10.9. Now never did God ſet open ſuch a Door of Hope, ſuch a Door of Grace, ſuch a Door of Salvation, as this is; <hi>In whom we have Boldneſs and Acceſs with Confidence to God by the Faith of him, Epheſ.</hi> 3.15. <hi>We have boldneſs to enter into the Holieſt, by the Blood of Jeſus, Heb.</hi> 10.9. Now this Door ſtands open ready to let you in; Chriſt calls you this Day to come, and he hath promiſed he will not ſhut you out, <hi>John</hi> 6.32. Is there never a Young Sinner here that hath a Heart to enter in at this Door to Day? Do it whilſt it may be done, before it is too late; for when Death comes, this Door will be ſhut to: If we ſtand out now, there can be no entring in then, you muſt be ſhut out for ever. The Door of the Goſpel will be ſhut, the Door of Faith, the Door of Hope, the Door of the Heart, the Door
+<pb n="47" facs="tcp:192295:33"/>
+of Chriſt's Blood and Righte<g ref="char:EOLhyphen"/>ouſneſs will be ſhut; and there<g ref="char:EOLhyphen"/>fore the Door of God's Bowels and Mercy will be ſhut: All theſe Doors will be ſhut againſt thee in that Day; therefore then there can be no Entring, for Death will put an end to all thy Oppor<g ref="char:EOLhyphen"/>tunities; therefore <hi>Remember now thy Creator;</hi> that is, now in the time of this Life; for <hi>Now is the Accepted Time, now is the Day of Salvation,</hi> 2 <hi>Cor.</hi> 6.2. And thus much for the Extended Sence of this NOW in the Text.</p>
+            <p>
+               <hi>Secondly,</hi> Sometimes this NOW is uſed in a more Reſtrained Sence, not only for the preſent Life, but for the preſent Time of this preſent Life: So it is uſed in the Text; therefore Mark, it is not ſaid only, <hi>Remember now thy Creator;</hi> that is, only now in this Life, but now <hi>in the Days of thy Youth,</hi> in the early part of thy Life; and ſo now is oppoſed to hereafter; and
+<pb n="48" facs="tcp:192295:34"/>
+this makes the Work of Cloſing with God in Chriſt to be a pre<g ref="char:EOLhyphen"/>ſent Duty, a Duty to be done without delay; <hi>Remember him now in the Days of thy Youth.</hi> The Life of Man from the Womb to the Grave, conſiſts of Three Stages; Infancy, Youth, and Old Age; and the Duty here is not affixed to the firſt, for Infancy is too ſoon to know God, when we cannot know our Selves: Nor is it affixed to the latter, for Old Age is too late to ſerve God, when we cannot ſerve our Selves: But it is affixed to Youth; this is the only time to know both our Selves and God, and our Loſt Condition without him, and our Happineſs by an Intereſt in him; therefore <hi>Remember now thy Crea<g ref="char:EOLhyphen"/>tor,</hi> now, <hi>in the Days of thy Youth.</hi> Indeed Youth is the only time of Life for this. In Infancy we are too Young to live, being but in our Imperfect Beginnings;
+<pb n="49" facs="tcp:192295:34"/>
+in Age we are too Old to Live, being in our Droopings and De<g ref="char:EOLhyphen"/>clinings.</p>
+            <p>The Life of Man is a Life of Reaſon; now Children are too Young to underſtand, and Old Men are twice Children; and therefore the Days of thy Youth are the only Days of thy Life to Remember thy Creator in; <hi>Remember now thy Creator,</hi> now, <hi>in the Days of thy Youth.</hi> And ſo I ſhould come now to the Concluſion I thought to ſpeak to; but I paſs that by for the preſent, and come from Explication to the Application, but in two Uſes.</p>
+            <p>The firſt ſhall be of Reproof to all ſuch as forget God now in their Youth: O what a Common Sin is this, eſpecially amongſt Young Ones! A Sin (I think) that never was ſo common as now; it is a Complaint every where, that the Youth of the Nation is generally Corrupted and De<g ref="char:EOLhyphen"/>bauched;
+<pb n="50" facs="tcp:192295:35"/>
+and it may appear by the Bills you put up full of Com<g ref="char:EOLhyphen"/>plaints of their States: Pray for an Undutiful Child that deſpiſes his Parents Counſel, ſays one; Pray for a Sabbath-breaking Child, ſays another; Pray for a Child that Diſhonours God by Curſing, and Swearing, and Lying, ſays a third; and ſo many more: And truly Parents may very much thank themſelves for this. It ve<g ref="char:EOLhyphen"/>ry much proceeds from want of Good Government, by timely In<g ref="char:EOLhyphen"/>ſtruction and Correction; and the want of this at home, toge<g ref="char:EOLhyphen"/>ther with Evil Examples abroad, hath ſo leavened the Youth of this Day, and ſtained them with ſuch vicious Tinctures, <hi>that God is not in all their Thoughts.</hi> Nay, they cannot endure the Name of God, unleſs it be to Curſe or Swear by it: And is not this for a La<g ref="char:EOLhyphen"/>mentation? It is ſuch a Sin, as would you be perſwaded ſeriouſly
+<pb n="51" facs="tcp:192295:35"/>
+to conſider of it, you would be aſhamed of; for it is the moſt unreaſonable thing in the World to forget God: It is ſuch a Sin, as if God would help you to lay it to Heart, you would be aſhamed of it. See how God Diſputed the Caſe with <hi>Iſrael, Jer.</hi> 2.2. <hi>What Iniquity have your Fathers found in me, that they have gone far from me, and walked after Vani<g ref="char:EOLhyphen"/>ties, and becomr Vain, neither ſay they, where is the Lord?</hi> As if God ſhould ſay, tell me what have you againſt me? What Evil have I done? As Chriſt ſays, <hi>Ma<g ref="char:EOLhyphen"/>ny Good Works have I done, for which of them do you Stone me?</hi> What have you to lay to my Charge? <hi>Have I been a Barren Wilderneſs, or a Land of Dark<g ref="char:EOLhyphen"/>neſs?</hi> If ſo, you have ſome occa<g ref="char:EOLhyphen"/>ſion to Revolt and Forget me; but if not, why ſay ye, <hi>We will come no more at thee? Jer.</hi> 2.31.</p>
+            <p>
+               <pb n="52" facs="tcp:192295:36"/>O what a ſhame is it that any one ſhould forget God, that never did him hurt, but good, all the Days of his Life. Pray Conſider that firſt Queſtion in your Catechiſm, <hi>Who made you?</hi> You once were not; and that which once was not, could not make it ſelf; as Nothing has no Exiſtence, ſo it can have no Operation: Nothing cannot be a Creator to every one of you. You derive your Beings from God, <hi>It is he that made us, and not we our ſelves, Pſalm.</hi> 100.3. there<g ref="char:EOLhyphen"/>fore you are called <hi>the Offspring of God; Acts</hi> 17.28. <hi>In him we live, move, and have our Being, for we are his Offspring.</hi> Now what a ſhame is it that a Creature that is made by God ſhould for<g ref="char:EOLhyphen"/>get his Maker? God complains of this, <hi>Iſa.</hi> 51.13. <hi>They forgat the Lord their Maker;</hi> and ſhould he be forgotten that gave us our Being?</p>
+            <p>
+               <pb n="55" facs="tcp:192295:36"/>
+               <hi>Honour thy Father and thy Mo<g ref="char:EOLhyphen"/>ther;</hi> it is a Law written in Na<g ref="char:EOLhyphen"/>ture; they deſerve the higheſt Reſpect and Reverence, becauſe they were the Inſtruments of our Being. Now God is much more the Author of our Being than he that Begat us, or than ſhe that Brought us forth: <hi>Thou art he,</hi> ſays <hi>David, that took me out of the Womb; thou art my God from my Mother's Belly.</hi> Parents are but the Second Cauſes of our Be<g ref="char:EOLhyphen"/>ing; God is the Firſt Cauſe, and all Second Cauſes depend upon the Firſt, in their Being and Ope<g ref="char:EOLhyphen"/>ration; therefore Man is nothing in our Production, if compared with God; and ſhall this God be forgotten, and ſinned againſt? He calls Heaven and Earth to wit<g ref="char:EOLhyphen"/>neſs againſt ſuch Rebels, <hi>Iſa.</hi> 1.2. <hi>Hear, O Heaven, and give Ear, O Earth, for the Lord hath ſaid, I have nouriſhed and brought up Chil<g ref="char:EOLhyphen"/>dren, and they have Rebelled againſt
+<pb n="54" facs="tcp:192295:37"/>
+me.</hi> Heaven and Earth will cry out againſt you, if he that made us be not remembred and owned by us.</p>
+            <p>
+               <hi>Secondly,</hi> Conſider what a Price God has put into your Hands for the good of your Souls. He hath not only made you, but he hath made Seaſons of Grace for you: Seaſons for the getting the Know<g ref="char:EOLhyphen"/>ledge of God in Chriſt: Seaſons for getting an Intereſt in Chriſt: He has given you his Sabbaths, his Word, his Ordinances, a Powerful Means and Miniſtry: Nay, many Young Ones have felt ſomewhat of the Power of theſe things; God has been at Work with them betimes, their Hearts have been touched, the Spirit of God hath wrought in them ſome Convictions of Sin, and of their loſt undone State. O what a Price has God put into your Hands; and how can you anſwer the neglect of it? What ſays <hi>Solomon? Prov.</hi> 17.16.
+<pb n="55" facs="tcp:192295:37"/>
+               <hi>Wherefore is there a Price put in<g ref="char:EOLhyphen"/>to the Hand of a Fool to get Wiſ<g ref="char:EOLhyphen"/>dom, ſeeing he hath no heart to it?</hi> He that hath a Price put into his Hands to get Wiſdom, and hath no Deſire in his Heart to it, that Man is a Fool: God ſays ſo, <hi>He is a Fool:</hi> And as he is ſo now in the Judgment of others, ſo he will be ſo one Day in his own. It will be a Sword in his Heart to conſider, I might have had God for my God, but I forgat him. I might have had an Intereſt in the bleſſed Redeemer, but I neglected it. I might have been Saved, but I let ſlip all theſe Opportunities that God put into my Hands. I have now wofully deſtroyed a Precious Soul by my Impenitent continuance in my Curſed Luſts, againſt the Calls and Counſels of God.</p>
+            <p>It is an awakening Paſſage, <hi>Eccleſ.</hi> 8.6. <hi>Becauſe to every Purpoſe there is Time and Judg<g ref="char:EOLhyphen"/>ment,
+<pb n="56" facs="tcp:192295:38"/>
+therefore the Miſery of Man is Great upon him.</hi> Therefore; Wherefore? VVhy, becauſe he hath not Judgment to diſcern the fitteſt Opportunity for every Pur<g ref="char:EOLhyphen"/>poſe. Many Young Ones, O how do they purpoſe that they will ſeek God hereafter? How do they purpoſe to mind their Salvation? One purpoſes a New Life, and a Better Courſe; and God has given every one of you time for this, but they want Wiſdom to know the Time; and ſo the Opportunity is loſt and gone, and they are miſe<g ref="char:EOLhyphen"/>rable for ever; <hi>Becauſe to every Purpoſe there is Time and Judg<g ref="char:EOLhyphen"/>ment, therefore the Miſery of Man is great.</hi> Sirs, Conſider it. Young Ones, how will your fruit<g ref="char:EOLhyphen"/>leſs Repentance begin; when your Opportunities are paſt and gone, then you will ſee your Folly: <hi>At his Latter End he ſhall be a Fool-</hi> He was a Fool at firſt, but he ſhall ſee it at laſt; at his Latter End,
+<pb n="57" facs="tcp:192295:38"/>
+he ſhall be convinced of his Folly.</p>
+            <p>
+               <hi>Thirdly,</hi> Young Ones, you that now forget God, and ſlight Reli<g ref="char:EOLhyphen"/>gion, and indulge to your Luſts; let me tell you, you are a Judg<g ref="char:EOLhyphen"/>men to the Nation, a Judgment and a Plague to the Land; I have formerly ſaid it to you, and I ſay it again, the Youth of a Na<g ref="char:EOLhyphen"/>tion are always a great Good or a great Miſchief to the Nation; they are either the Hope or the Plague of the Land. When Young Ones are Serious, and mind God and their Souls, when the Word of God is Precious to them, to Awaken and Convert them to Sea<g ref="char:EOLhyphen"/>ſon their Hearts with Wiſdom, to Know and Remember God, to Seek after Chriſt, to Honour Religion, by a Sober and Holy Converſation; ſuch a Race of Youth are a Bleſſing in any Age, they are a Bleſſing of God to a Land.</p>
+            <p>
+               <pb n="58" facs="tcp:192295:39"/>But when the Youth of a Na<g ref="char:EOLhyphen"/>tion caſt off Religion, caſt off all Duty to God and Man, and all So<g ref="char:EOLhyphen"/>briety and Vertue, and grow Proud, Profligate, Profane, tain<g ref="char:EOLhyphen"/>ted with all manner of Wicked<g ref="char:EOLhyphen"/>neſs, even to Atheiſm it ſelf, What ſhall we ſay then? Then I ſay, this is a ſad ſign of ſome Judgment of God coming upon the Land; and indeed we have many Young Ones in this Day, ſuch Monſters in Wickedneſs as hath not been known in any Age; ſuch Young Swearers that can ſcarce ſpeak plain; Young Sab<g ref="char:EOLhyphen"/>bath-breakers, Young Blaſphe<g ref="char:EOLhyphen"/>mers; Young Atheiſts; never any Age produced the like; and for accompanying with Harlots, and all manner of Uncleanneſs, that is become a Faſhion: Therefore I tell you, and I tell you from the Word of the Lord; and I beg you would Conſider it; there is ſome ſore Judgment of God near
+<pb n="59" facs="tcp:192295:39"/>
+at hand; I tell you the truth, it is near, and haſtens greatly; a Day of Trouble and Diſtreſs, a a Day of Waſting and Deſolation; therefore, my Brethren, I ſpeak it with an Aking Heart, <hi>England</hi> is now big with ſuch a Brood as will Eat out our Bowels; the Children will Deſtroy the Mother; therefore Pray hearken to a word of Exhor<g ref="char:EOLhyphen"/>tation, and not from me, but from the Lord; it is the Exhortation in the Text, O <hi>Remember your Crea<g ref="char:EOLhyphen"/>tor now in the Days of your Youth!</hi> Now, if ever; now, or never; now, <hi>in the Days of your Youth.</hi> As ever you would have Good Times, as ever you would have God own this Nation, as ever you would have the Goſpel continued in the midſt of you, O <hi>Remember your Creator!</hi>
+            </p>
+            <p>
+               <hi>Firſt,</hi> Remember how he Crea<g ref="char:EOLhyphen"/>ted you in his own Image; every one of you was made in the Image of God; every one; though the
+<pb n="60" facs="tcp:192295:40"/>
+Moral Image of God is blotted out by the Fall, that Image that con<g ref="char:EOLhyphen"/>ſiſted in Righteouſneſs and Holi<g ref="char:EOLhyphen"/>neſs, that is loſt; yet there is a Natural Image of God which is ſeated in the Intellective and E<g ref="char:EOLhyphen"/>lective Powers of the Soul; and this every one of you hath; this Image every one brings in<g ref="char:EOLhyphen"/>to the World with him; it can<g ref="char:EOLhyphen"/>not be loſt; it ſhall be carried to Heaven and Life, and to Hell too: It will be the Comfort of Saints in Heaven, and the Tor<g ref="char:EOLhyphen"/>ment of Sinners in Hell, to lye there with this Image of God, there their Mind, Underſtanding, Memory, to Conſider and Re<g ref="char:EOLhyphen"/>member how they Sinned againſt this God in their Lives. Now why has God ſtamped every one with his Image, but to make him capable of Knowing God, and Chuſing God, and Loving God, and Cloſing with God, and Deſiring God, and Serving God,
+<pb n="61" facs="tcp:192295:40"/>
+and Injoying Communion with God? This is the End why he put his Natural Image into every Soul; otherwiſe Man might have Ser<g ref="char:EOLhyphen"/>ved God as Brute Creatures do; but he could never have known him, never have had Communion with him: Now ſhall we bear this Image of God, and ſhall we not labour to know the Lord?</p>
+            <p>
+               <hi>Secondly,</hi> Remember him ſo as to make it the Chief Buſineſs of your Lives to ſeek him, and to <hi>Seek him while he may be found.</hi> It is the Counſel of the Holy Ghoſt, <hi>Seek the Lord while he may be found.</hi> VVhen is that? He tells you, <hi>Prov.</hi> 8.17. <hi>They that ſeek me early ſhall find me.</hi> Now he ſeeks God early, that makes it his firſt Work; there<g ref="char:EOLhyphen"/>fore ſays our Lord, <hi>Seek firſt the Kingdom of God, and the Righ<g ref="char:EOLhyphen"/>teouſneſs thereof, and all theſe things ſhall be added to you, Mat.</hi> 6.33. Seek the Kingdom of God
+<pb n="62" facs="tcp:192295:41"/>
+as the End, and his Righteouſneſs as the Means; for Grace is the way to Glory, Holineſs to Hap<g ref="char:EOLhyphen"/>pineſs. Without Righteouſneſs there is no Heaven to be had; but with it comes both Heaven and Earth too; for Godlineſs hath the Promiſe of both Lives, both that which is now, and that which is to come: But this Kingdom muſt be firſt ſought; <hi>Firſt ſeek the Kingdom of God;</hi> firſt, before every thing; and firſt, above any thing elſe.</p>
+            <p>Our Intereſt in God is loſt by the Fall; it may be recovered, and there is nothing ſo uſeful to be ſought and ſecured as that. <hi>Is not the Life more than Meat, and the Body than Raiment?</hi> Says Chriſt: So ſay, is not Heaven more than Earth? Is not God bet<g ref="char:EOLhyphen"/>ter than the VVorldi, and Spiritu<g ref="char:EOLhyphen"/>al Bleſſings better than Temporal? O therefore, let not the Lean Kine devour the Fat; nor the things of
+<pb n="63" facs="tcp:192295:41"/>
+the VVorld ſhut God and Chriſt out of our Hearts and Thoughts. The Spiritual Bleſſings are the beſt, therefore God Promiſes them firſt. <hi>He will give Grace and Glory, Pſal.</hi> 84.11. There be Spiritual Bleſſings; <hi>and he will withhold no good thing from them that walk uprightly;</hi> there follow Temporals. God ſuits his Mercies to our Neceſſi<g ref="char:EOLhyphen"/>ty; therefore he gives them firſt that we need moſt.</p>
+            <p>This ſhould direct our Duties, and teach us what to Beg, and what to Seek. Seek God in the the firſt place, God in Chriſt; and and if Spiritual Mercies be ſecu<g ref="char:EOLhyphen"/>red, Temporal Mercies, ſo far as is for your good, ſhall never be denied: Therefore let it be your VVork to ſeek God before all, above all, and more than all; for he is all in all: But be ſure to ſeek him in Chriſt, or I tell you, you will never find him, nor find accep<g ref="char:EOLhyphen"/>tance with him. Since the Fall, God
+<pb n="64" facs="tcp:192295:42"/>
+is not to be found, but only by a Mediator; <hi>He that finds me,</hi> ſaith Chriſt, <hi>findeth Life, and ſhall ob<g ref="char:EOLhyphen"/>tain favour of the Lord, Prov.</hi> 8.33.</p>
+            <p>O get an Intereſt in Chriſt; of all things, Young Ones, get an Intereſt in Chriſt, a hearty Clo<g ref="char:EOLhyphen"/>ſing with Chriſt, a Saving Faith in Chriſt; this is the right way of <hi>Remembring your Creator.</hi> Re<g ref="char:EOLhyphen"/>member him ſo as to Obey him, and Live to him; that is the Sence of the Apoſtle's Counſel, 1 <hi>Pet.</hi> 4.19. <hi>Commit your Souls to him in well-doing, as to a faithful Creator;</hi> it muſt be in well-do<g ref="char:EOLhyphen"/>ing. He hath promiſed Eternal Life to them who ſeek him by <hi>Patient continuance in well-doing, Rom.</hi> 2.7. And therefore let me add this, as you muſt Remember him firſt, ſo you muſt Remember him to the Laſt: Pray take that, and I will have done: As you muſt remember God firſt, ſo you muſt remember him to the laſt: You
+<pb n="65" facs="tcp:192295:42"/>
+muſt begin with God, and you muſt end with him: O take heed of beginning in the Spirit, and end<g ref="char:EOLhyphen"/>ing in the Fleſh.</p>
+            <p>You Read in the 20th of <hi>Mat<g ref="char:EOLhyphen"/>thew,</hi> that the Labourers came to VVork in the Vineyard at very different Hours: Some came Ear<g ref="char:EOLhyphen"/>ly in the Morning; ſome at the Third Hour; ſome at the Sixth; ſome at the Ninth Hour; and ſome at the Eleventh: Some came in Earlier, and ſome Later; they did not all come in in the Morning. Ay, but they all tarried till the Evening; they all Laboured till the Evening.</p>
+            <p>It is the VViſe Man's Counſel, and O that God would help you to take it! <hi>In the Morning Sow thy Seed, and in the Evening hold not back thine Hand, Eccleſ.</hi> 11.6. My Brethren, God muſt have the Duty of the whole Day of your Life: Chriſt ſays ſo, <hi>I muſt work the Work of him that ſent me while
+<pb n="66" facs="tcp:192295:43"/>
+it is Day.</hi> Chriſt never ſpent one Hour of his Day Idlely. The Lord Pity Young Ones; How do they Idle away their Time? God muſt have the Duty of the whole Day; for as we are here in the Text called to ſeek him Early, ſo we are commanded to ſeek him continually. 1 <hi>Chron.</hi> 28.7. <hi>God is Alpha and Omega, the beginning and the Ending;</hi> therefore as we are to begin with him firſt, ſo we are to hold on with him to the laſt: <hi>For he that indures to the end ſhall be ſaved: Be thou faith<g ref="char:EOLhyphen"/>ful to the Death, and I will give thee a Crown of Life, Rev.</hi> 2.10.</p>
+            <p>Now I might urge this Duty upon you, which is ſo great by many Arguments.</p>
+            <p>From what God is to us; <hi>our Creator.</hi>
+            </p>
+            <p>From the Command laid upon thee to Remember him as ſuch.</p>
+            <p>
+               <pb n="67" facs="tcp:192295:43"/>From what he deſerves of us; <hi>For of him, and through him, and to him, are all things; therefore Glory ſhould be to him for ever,</hi> Rom. 11.32.</p>
+            <p>But I ſhall urge but this one Motive, and I have done. The Preſent Time is only thine; thou haſt a great Work to do, a God to remember, a Chriſt to ſeek, Sin to kill, Grace to get, a Hea<g ref="char:EOLhyphen"/>ven to mind, a Hell to avoid, a Soul to ſave, a ſtrict Day of Judgment to paſs through; O what work have we to do! And all the Time we have to do it in is but Now: The Preſent Seaſon is only thine, thy Days are here li<g ref="char:EOLhyphen"/>mited and bounded in the Text to a Preſent now; <hi>Now in the Days of thy Youth.</hi> What Fools are Young Ones now to ſay, by the Grace of God I intend to Repent hereafter, and I will ſeek after God hereafter. I am too Young now, when God ſays, <hi>Remember thy
+<pb n="68" facs="tcp:192295:44"/>
+Creator now in the Days of thy Youth?</hi>
+            </p>
+            <p>You little think how ſoon Death may come; it doth not always give warning; what warning had the Rich Man? <hi>Thou Fool, this Night ſhall thy Soul be required of thee;</hi> when he cries out, <hi>I have Goods laid up for many Years.</hi> What warning had <hi>Job</hi>'s Chil<g ref="char:EOLhyphen"/>dren, that were all taken away in an Hour? O Sirs! Death hath ſeveral paſſages to your ſtrong Holds, that you cannot find out: He doth not lay long Siege to all: There is no ſaying to Death when it comes, there is one Older than I, take him; there is one was Gray when I was but a Child, let him go firſt. No, Sirs, you muſt know that Sin hath alter'd the Courſe of Nature; the Son Dies before the Father, and the Daugh<g ref="char:EOLhyphen"/>ter before the Grand-Mother.</p>
+            <p>I ſay therefore, the Preſent Time is only yours; yeſterday
+<pb n="69" facs="tcp:192295:44"/>
+can never be recalled, and to Morrow may never be enjoyed: The Preſent Time is only yours. Young Ones Die as well the Old: Bloſſoms are liable to Nipping in the Spring, as well as full Grown Fruit to Rotting in Autumn. Thou that art Young and Strong; thou art not ſure of another Year, no, nor of another Day: O therefore who would hazard his precious Soul upon ſuch uncertainties! Opportunity ended returns no more: <hi>There is hope of a Tree if it be cut down,</hi> (ſaith <hi>Job) that it will ſprout again; but Man lyeth down, and riſeth not till the Heavens be no more.</hi>
+            </p>
+            <p>Sirs, Pray remember we have but one Arrow of Life to hit the Mark with, and if we ſhoot at Random we looſe all; therefore we had need be good Archers. O what will you do, Young Ones, what will you do, if your Day be ended before your work be finiſh<g ref="char:EOLhyphen"/>ed,
+<pb n="70" facs="tcp:192295:45"/>
+if your Paradice be laid waſte before the Tree of Life be planted in it! O therefore that you would be perſwaded to hearken to God here in the Text, <hi>To Remember thy Crea<g ref="char:EOLhyphen"/>tor now in the Days of thy Youth, while the Evil Days come not, nor the Days draw nigh, wherein thou ſhalt ſay I have no pleaſure in them!</hi>
+            </p>
+         </div>
+         <div n="2" type="discourse">
+            <pb n="71" facs="tcp:192295:45"/>
+            <head>THE YOUTH's Beſt Choice. II. DISCOURSE.</head>
+            <epigraph>
+               <q>
+                  <p>
+                     <bibl>
+                        <hi>Eccleſ. xii. 1.</hi>
+                     </bibl> Remember now thy Creator in the Days of thy Youth, while the Evil Days come not, nor the Years draw nigh, in which thou ſhalt ſay, I have no Pleaſure in them.</p>
+               </q>
+            </epigraph>
+            <p>THere are two great Concerns which lye upon all our Hands, which ought to be ſeri<g ref="char:EOLhyphen"/>ouſly thought of by us, and duly attended; the one is, <hi>A Wiſe Im<g ref="char:EOLhyphen"/>proving this preſent Life,</hi> and the other is, <hi>A careful providing for a better;</hi> two Things which
+<pb n="72" facs="tcp:192295:46"/>
+none can be too Diligent about; and he that is truly Faithful in one, will in ſome Meaſure be Conſci<g ref="char:EOLhyphen"/>ous in both: And both theſe are pointed at in the Text. For he that in the Days of his Youth Re<g ref="char:EOLhyphen"/>members his Creator as he ought, does at once rightly improve the preſent Life, and wiſely provide for that to come, and ſo unites in his Practice thoſe Duties that God hath joined together in the Pre<g ref="char:EOLhyphen"/>cept, <hi>Remember thy Creator now in the Days of thy Youth,</hi> &amp;c.</p>
+            <p>In which Words you have the Call and Command of God to a ve<g ref="char:EOLhyphen"/>ry Important Duty; wherein we may obſerve,</p>
+            <p>
+               <hi>Firſt,</hi> The Act or Duty it ſelf, to <hi>Remember.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> The Object to be Re<g ref="char:EOLhyphen"/>membred, <hi>Thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> The Seaſon wherein this Duty is to be put in Practice, <hi>now.</hi> But leaſt you ſhould think that this now takes in the whole time
+<pb n="73" facs="tcp:192295:46"/>
+of the Preſent Life, therefore he does exclude the latter Part of Life, and limits this <hi>now</hi> to the former Part; <hi>Remember thy Crea<g ref="char:EOLhyphen"/>tor now in the Days of Youth.</hi>
+            </p>
+            <p>I did the laſt Year, as ſome of you may remember, upon this Oc<g ref="char:EOLhyphen"/>caſion, ſpeak from theſe Words. I then only opened them to you, and ſhewed the Comprehenſive Sence of them, without making any Ob<g ref="char:EOLhyphen"/>ſervation from them. I told you, that this remembring our Creator points to a Fivefold Duty.</p>
+            <p>
+               <hi>Firſt,</hi> To a right Knowledge of God; and he cannot be rightly known, but in and by Chriſt; we cannot elſe know the Way of do<g ref="char:EOLhyphen"/>ing it; for <hi>he is the Way, the Truth, and the Life:</hi> And there<g ref="char:EOLhyphen"/>fore the right Remembring our Creator, includes in it a Saving Knowledge of God in Chriſt.</p>
+            <p>
+               <hi>Secondly,</hi> This Remembring in<g ref="char:EOLhyphen"/>cludes believing; we cannot be ſaid to remember God in the Sence
+<pb n="74" facs="tcp:192295:47"/>
+of the Text, if we do not depend upon him, and truſt in him; there<g ref="char:EOLhyphen"/>fore <hi>David</hi> expreſſes his Faith in God, by remembring of him, <hi>Pſalm</hi> 20.7. <hi>Some truſt in Chariots, and ſome in Horſes, but we will re<g ref="char:EOLhyphen"/>member the Name of the Lord our God:</hi> That is, others truſt in Creatures, but our truſt ſhall be in God.</p>
+            <p>
+               <hi>Thirdly,</hi> Remembring implies Repenting; Forgetfulneſs and Im<g ref="char:EOLhyphen"/>penitency always go together; Sinning is called in Scripture, a <hi>Forgetting God,</hi> and Repentance is a calling Sin to Remembrance, with a true Sence of the Evil of it, and Sorrow for it, as done againſt God; and therefore where God is forgotten, and out of our Remem<g ref="char:EOLhyphen"/>brance, there can be no Repen<g ref="char:EOLhyphen"/>tance.</p>
+            <p>
+               <hi>Fourthly,</hi> Remembring our Creator, carries in it Love and Reſpect. Though an Object be every way Amiable, and made up
+<pb n="75" facs="tcp:192295:47"/>
+of Delights, yet it can never be re<g ref="char:EOLhyphen"/>membred with pleaſure, when it hath no room in our Reſpect. God's Deſign and End in requi<g ref="char:EOLhyphen"/>ring to be remembred by us, is, that he may be loved by us; and his beſpeaking a Place in our Thoughts, is, that he may have a Room in our Hearts. The high<g ref="char:EOLhyphen"/>eſt Act of Honour the Creature can do to God, is to truſt him, and love him. A Remembrance of God, without ſuitable Reſpect, cannot anſwer the Call in the Text, becauſe it is but paſſant and tranſcient: For when any other Object poſſeſſeth our Affections, God is ſoon forgotten and forſaken. What we love, we love to think on, as what we ſlight, we ſoon forget. As it is ſaid of <hi>Jeſhurun, he forgat God that made him, and lightly eſteemed the Rock of his Salvation.</hi>
+            </p>
+            <p>
+               <hi>Fifthly,</hi> This Remembring of God includes obedience to his Will.
+<pb n="76" facs="tcp:192295:48"/>
+Obedience is nothing elſe but Know<g ref="char:EOLhyphen"/>ledge, digeſted into Affection and Action. Hence is that Counſel of <hi>David</hi> to his Son <hi>Solomon, Know thou the God of thy Fathers, and ſerve him with a perfect heart, and willing mind.</hi> As there can be no Obedience, where God is not known, ſo that Knowledge of God ſtands for nothing, that is not fruitful in Obedience: Mark that Counſel of <hi>Moſes, Deut.</hi> 8.11. <hi>Beware that thou forget not the Lord thy God:</hi> How is that? The next Words tell you, <hi>in not keeping his Commandments.</hi> Diſobedience is a forgetting God; ſo that that which in the Text is called a <hi>Remembring our Creator,</hi> is in the laſt Chapter of this Book, <hi>ver.</hi> 13. expreſſed, by <hi>fearing God, and keeping his Command<g ref="char:EOLhyphen"/>ments.</hi> If the Authority of God be caſt off, and we make not his Word the Rule of our Lives, he is as much forgotten in a Scripture
+<pb n="77" facs="tcp:192295:48"/>
+Sence, as if he were utterly ſhut out of our Thoughts: So ſays <hi>Da<g ref="char:EOLhyphen"/>vid, I have remembred thy Name, O Lord, and have kept thy Word.</hi> So that you ſee this Remembring is a very Comprehenſive Term.</p>
+            <p>Then the Object to be Remem<g ref="char:EOLhyphen"/>bred was opened to you, <hi>(thy Creators)</hi> for in the Original it is in the Plural Number; and ſo it points to Father, Son, and Spirit. It is not ſaid Remember thy God, but, <hi>Remember thy Creator.</hi> God is not every one's God, but he is e<g ref="char:EOLhyphen"/>very one's Creator; fallen Crea<g ref="char:EOLhyphen"/>tures, they be his Creatures ſtill, as much as ever; and this Re<g ref="char:EOLhyphen"/>membring him as thy Creator, is that that gives thee a Claim to him as thy God.</p>
+            <p>And then in the laſt place I o<g ref="char:EOLhyphen"/>pened to you the Seaſon of this Duty, <hi>now;</hi> not <hi>now</hi> as intend<g ref="char:EOLhyphen"/>ing any time of Life, but now in the Days of thy Youth. I inſiſted largely upon theſe things, in the
+<pb n="78" facs="tcp:192295:49"/>
+opening of them to you, and im<g ref="char:EOLhyphen"/>proved them by a Particular Ap<g ref="char:EOLhyphen"/>plication: And this is the ſum of what I ſpake laſt Year upon theſe Words.</p>
+            <p>I now come to give you ſome Obſervations from them; one is this.</p>
+            <p>That Youth is naturally very prone to forget God; this is plain<g ref="char:EOLhyphen"/>ly implied: For what need elſe of this <hi>Memento</hi> in the Text, <hi>Re<g ref="char:EOLhyphen"/>member now thy Creator in the Days of thy Youth.</hi>
+            </p>
+            <p>Another might be this; that the true and beſt Improvement of Youthful Days, is to devote them to God, to mind Religion betimes.</p>
+            <p>But I ſhall not ſpeak to any of theſe; my Deſign, at preſent, is to ſpeak to the Words as they lye in the Original.</p>
+            <p>Remember now thy Creator in the Days of thy Choice: The Word that we render <hi>Youth,</hi> here the Days of thy Youth, is from
+<pb n="79" facs="tcp:192295:49"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> to Elect, to Chuſe; and ac<g ref="char:EOLhyphen"/>cordingly <hi>Montanus</hi> renders the Word; <hi>Remember now thy Crea<g ref="char:EOLhyphen"/>tor in the Days of thy Choice.</hi>
+            </p>
+            <p>Now this admits of a double Senſe. Either,</p>
+            <p>Thy Choice Days, or thy Chu<g ref="char:EOLhyphen"/>ſing Days.</p>
+            <p>
+               <hi>Firſt,</hi> The Days of Youth they are your Choice Days, the Prime of your Time, the Flower of your Age. As the Spring is the choice time of the Year, ſo is Youth the choice time of Life; Nature is then moſt brisk, and active, and full of vigor, and the Spirits quick and lively, the Wit ſharp, the Affections ſtrong, the Memory re<g ref="char:EOLhyphen"/>tentive; and therefore there is no time to mind Religion like this choice time of Youth.</p>
+            <p>O where now are thoſe <hi>Iſaacs</hi> that meditate whilſt they are young? Where are thoſe <hi>Jacobs</hi> that ſeek for the Bleſſing betimes? Where are thoſe Children that
+<pb n="80" facs="tcp:192295:50"/>
+ask their Parents as they under the Law did? <hi>What mean the Sabbaths and the Ordinances of the Lord, that we may alſo keep them?</hi> Where are the Children amongſt you that ſing Hoſannah's to Chriſt, as they did in the Days of his Fleſh? Theſe are the Young Mens Looking Glaſſes; and becauſe we are led by Exam<g ref="char:EOLhyphen"/>ple more than by Precept, there<g ref="char:EOLhyphen"/>fore the Holy Ghoſt has ſet before you theſe Preſidents in Scripture, that you may imitate and copy them out; theſe are choice Paterns, and if you make Conſcience to follow them in your Choice Days, you will ſhew your ſelves to be a Choſen Generation, Children that God will delight to own. But,</p>
+            <p>
+               <hi>Secondly,</hi> (For I will paſs that too) the Days of Youth, they are your Chuſing Days; as they are Choice Days, ſo the Days of your Choice. Chuſing, What is that? Why it is a deliberate Act of the
+<pb n="81" facs="tcp:192295:50"/>
+Soul, it is done upon Conſiderati<g ref="char:EOLhyphen"/>on and Debate; when a Man up<g ref="char:EOLhyphen"/>on a Judgment rightly informed and Affections thereby ingaged, does cleave to God, and the Ways of God, that is Election and Choice.</p>
+            <p>The Obſervation then that I ſhall lay down from the Sence of the Words, is this, that it is the great Concernment and Duty of Young Ones, to make God the Object of their Firſt Choice, to begin with God in their Firſt Set<g ref="char:EOLhyphen"/>ting Out in the World.</p>
+            <p>We never enter into God's Ser<g ref="char:EOLhyphen"/>vice aright, till we enter upon it by Choice, for God will have it ſo: <hi>Chuſe you this Day whom you will Serve,</hi> either the true God, or Idols: Not as if it were at their own liberty to ſerve which they pleaſed: No, but to con<g ref="char:EOLhyphen"/>vince them of the Folly of a bad Choice, and to direct them to a right Choice.</p>
+            <pb n="80" facs="tcp:192295:51"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="81" facs="tcp:192295:51"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <p>
+               <pb n="82" facs="tcp:192295:52"/>But for the clearing of the Do<g ref="char:EOLhyphen"/>ctrine, I will ſhow you,</p>
+            <p>
+               <hi>Firſt,</hi> What it is to chuſe God.</p>
+            <p>
+               <hi>Secondly,</hi> I will give you the Rea<g ref="char:EOLhyphen"/>ſons of the Concernedneſs of the Duty.</p>
+            <p>And ſo apply it.</p>
+            <p>
+               <hi>Firſt,</hi> What is it to chuſe God? It implies Five Things.</p>
+            <p>
+               <hi>Firſt,</hi> A due Conſideration of the Object, its Nature, Worth, and Excellency; till things are duly weighed in the Ballance of a true Judgment, we can never make a right Choice; and here the buſineſs ſticks with Young Ones. In this firſt Work we cannot perſwade them to conſider, they will not weigh things, but they will act ac<g ref="char:EOLhyphen"/>cording to the inclination of their Luſts; therefore the Apoſtle ad<g ref="char:EOLhyphen"/>viſes us to reſolve upon trial, 1 <hi>Theſ.</hi> 5.21. <hi>Prove all things, and hold faſt that which is good:</hi> A Man will
+<pb n="83" facs="tcp:192295:52"/>
+never hold faſt that which is Good, until he firſt prove and try it.</p>
+            <p>Indeed the things which are uſu<g ref="char:EOLhyphen"/>ally oppoſed to Religion, are ſuch poor paltry Vanities, that they are not worthy to be ſet in competition with God, or to come into a ſerious Debate: How eaſie is it to reſolve which is fitteſt to be pleaſed, God, or the Fleſh? Whether the Tranſi<g ref="char:EOLhyphen"/>tory Pleaſures of Sin ſhould be pre<g ref="char:EOLhyphen"/>ferred to the Life and Salvation of an Immortal Soul. A Serious Con<g ref="char:EOLhyphen"/>ſideration on theſe Things, would ſoon determine the Matter on God's ſide.</p>
+            <p>
+               <hi>Secondly,</hi> This Chuſing of God, implies Eſteem and Preference; for Election and Choice is the preferring one thing before another. Our Choice of all Objects is according to our Eſteem of them: As far as we judge a thing needleſs, ſo far we count it worthleſs. Let a Man have but ſlight Thoughts of God, and his Duties ſhall be as ſhort as his Thoughts are ſlight: Mean Ap<g ref="char:EOLhyphen"/>prehenſions
+<pb n="84" facs="tcp:192295:53"/>
+are ever attended with liſtleſs Devotions. It is the Soul that highly eſteems God, that chuſes and ſeeks him. What ſaid <hi>Caleb</hi> and <hi>Joſhua</hi> when they returned from ſpying out the Land of <hi>Canaan,</hi> and had taſted the ſweet Fruits of it? <hi>O,</hi> ſay they, <hi>it is a good Land, let us go up and take it at once:</hi> But the other Spies that undervalued it, laid aſide the thoughts of Poſſeſſing, and are for facing about to <hi>Egypt.</hi>
+            </p>
+            <p>Though God and Chriſt are the beſt Good, yet there are many Com<g ref="char:EOLhyphen"/>petitors that ſtand as Rivals with them in the Soul; and therefore your Choice can never be right, un<g ref="char:EOLhyphen"/>leſs theſe Rivals be trampled under foot. It is ſaid of the Wiſe Mer<g ref="char:EOLhyphen"/>chant, that <hi>when he had found a Pearl of great Price, he went and Sold all that he had, and bought it,</hi> Mat. 13.46. Firſt, he ſhews his Eſteem of it, as a Pearl of great Price, and then he parts with all to purchaſe it. What a high Eſteem had <hi>Paul</hi> of Chriſt? <hi>The Excellency of the Know<g ref="char:EOLhyphen"/>ledge of Chriſt Jeſus my Lord,</hi> Phil.
+<pb n="85" facs="tcp:192295:53"/>
+3.8. There is his Value of him; and ſee how it drew his Heart af<g ref="char:EOLhyphen"/>ter him; <hi>I count all things but Loſs —that I may Win Chriſt.</hi> It is not enough to approve of God and his Ways ſimply, but we muſt ap<g ref="char:EOLhyphen"/>prove of them comparatively; not only as good in themſelves, but as better than all other good what<g ref="char:EOLhyphen"/>ever. We ſhall never chuſe God before all, till we come to Eſteem him above all.</p>
+            <p>
+               <hi>Thirdly,</hi> This chuſing of God, implies a voluntary Inclination and Deſire; a Man is ſaid to chuſe thoſe things which he Likes and Loves, and which his Soul Inclines to. So that he is carried after them, not by the Force of any External Principle, but by his own Propenſion and In<g ref="char:EOLhyphen"/>clination, and this ſuppoſes Love; for Deſires are the Natural Iſſues of Love.</p>
+            <p>The Soul can never mount up<g ref="char:EOLhyphen"/>ward, if the Affections tend down<g ref="char:EOLhyphen"/>ward; and therefore when the Holy Ghoſt would give an advance to the
+<pb n="86" facs="tcp:192295:54"/>
+Life of God in the Soul, he begins firſt with the Affections; <hi>Set your Affections on things above;</hi> and then, as Deſires always ſpring from Love, ſo they are drawn forth by a Sence of Want; for what we Love, and have not, that becomes a Want; and Sence of Want will quicken Ap<g ref="char:EOLhyphen"/>petite, and ſet Deſires on Work; now theſe Deſires muſt be fed and ſatisfied, and that none can do, but God; therefore it is God that he chuſes.</p>
+            <p>
+               <hi>Fourthly,</hi> This chuſing implies a firm Purpoſe, and a fixed Reſolu<g ref="char:EOLhyphen"/>tion, of adhering to our choice. We never chuſe till we bring our Minds and Wills to a firm Purpoſe; there may be many good Thoughts and Wiſhes in the Soul, but ſtill till we are reſolved for God, we do not chuſe him. When the Heart is Pe<g ref="char:EOLhyphen"/>remptory and Fixed for God, that will come to ſomething; when the Soul ſays, I ſee I am an undone Creature, I am convinced of my State, and the Neceſſity of my Caſe; I muſt have God, I muſt ſecure an
+<pb n="87" facs="tcp:192295:54"/>
+Intereſt in Chriſt, I muſt be Born again, I muſt mind the ſaving of an Immortal Soul, this will come to ſomewhat; and a Profeſſion of Re<g ref="char:EOLhyphen"/>ligion (let me tell you) ſignifies very little till it comes to this. <hi>Who is this that hath engaged his Heart to Approach to me,</hi> ſays God, <hi>Jer.</hi> 30.21. It is Reſolution that ingages the Heart for God, and makes our choice of him firm and unaltera<g ref="char:EOLhyphen"/>ble; eſpecially if it be deliberate and intire.</p>
+            <p>
+               <hi>Firſt,</hi> It muſt be deliberate from a Sence and Conſcience of our Duty and Intereſt. Reſolves taken up upon Sudden Surprizes or Preſent Heats, rarely produce any good Ef<g ref="char:EOLhyphen"/>fect: This is often the Caſe of you Young Profeſſors, that are like an Early Spring, all Bloſſoms, but no Fruit; or like a Vapour Exhaled by the Warmth of the Sun, that riſes no higher than the middle Region, where it is Condenſed, and drops down again: This is that very thing that makes ſo many Apoſtates
+<pb n="86" facs="tcp:192295:55"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="87" facs="tcp:192295:55"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="88" facs="tcp:192295:56"/>
+from God and his Ways; they take up a Profeſſion of Religion too ſoon before the Word of God has taken Root in the Heart. Indeed a Soul that chuſes God aright, can never Profeſs him too ſoon, the ſooner the better; but he that makes a Pro<g ref="char:EOLhyphen"/>feſſion of God, before he makes a choice of God, before the Word is rooted in the Heart, or any thing of the Power of Religion is felt within, ſuch a one takes up a Pro<g ref="char:EOLhyphen"/>feſſion too ſoon. It is ſaid of the Seed Sown in ſtony Places, <hi>Mat.</hi> 43. <hi>Forthwith it ſprung up.</hi> Above ground too ſoon; it grows upward, but not downward; all Blade, but no Root: So ſays Chriſt, <hi>Verſe</hi> 21. <hi>Yet hath he not Root in himſelf:</hi> And what follows? <hi>He dureth but for a while.</hi> A Muſhroom Chriſtian, the Birth of a Night, and the Abode of a Day. Such begin too ſoon to hold out with God long: This has cauſed many Scoffers at Religion to take up that Envious Proverb, <hi>A young Saint, and an old Devil:</hi> whereas if they had ſaid, A young
+<pb n="89" facs="tcp:192295:56"/>
+Hypocrite, and an old Apoſtate, it had been a Truth too too often Ex<g ref="char:EOLhyphen"/>perienced. Flaſhy Affections, that have no Principles to maintain them with<g ref="char:EOLhyphen"/>in, come to nothing; they are like Fire in Green Wood, that burns no longer than it is blown; or like Water hanged over a Quick Flame, that is ſoon Hot, but when it is ta<g ref="char:EOLhyphen"/>ken off again, is as ſoon Cold; nay, Colder than it was before; becauſe the Natural Spirits are evaporated. How nimbly does the Windmill Work when it blows a Brisk gale, but the Wind no ſooner ceaſes, but the Mill ſtands: So ſudden and im<g ref="char:EOLhyphen"/>mature Reſolutions come to no<g ref="char:EOLhyphen"/>thing; they muſt be managed with Judgment and Deliberation: <hi>Da<g ref="char:EOLhyphen"/>vid</hi>'s Practice is an excellent Pat<g ref="char:EOLhyphen"/>tern, <hi>Pſalm</hi> 119.59. <hi>I conſidered my ways, and turned my Feet to thy Teſtimonies: David</hi> ſpeaks like a Man under a Dilemma, as having two ways before him; there is the Way of Sin, and Luſt, and Carnal De<g ref="char:EOLhyphen"/>light; this the Fleſh preſents, and it ſeems an eaſie and a pleaſant
+<pb n="90" facs="tcp:192295:57"/>
+Way: Ay, but it leads to Deſtructi<g ref="char:EOLhyphen"/>on. Then there is the Way of God's Commandments: This the Word preſents, it is Narrow, it is Troubleſome, but it leads to Life, and that makes amends for all. Now when we ſtand ſtill, and debate upon the Choice, which of theſe is the better Way, and conſi<g ref="char:EOLhyphen"/>der the Loſs and the Gain of either Side; and the final Iſſue of the one Way, and the other, and thereupon reſolve to take in with the Ways of God, as promoting our trueſt Inte<g ref="char:EOLhyphen"/>reſt and Felicity, this is a deliberate Reſolution: And this was the Courſe of that Prodigal Son, when he came to himſelf, <hi>Luke</hi> 15. <hi>v.</hi> 17. he firſt bethinks himſelf, falls into a ſeri<g ref="char:EOLhyphen"/>ous Debate of his Caſe, <hi>How many Hired Servants of my Father's have Bread enough, and I periſh with hun<g ref="char:EOLhyphen"/>ger?</hi> What ſhall I do? <hi>I will ariſe and go to my Father, and ſay unto him, Father, I have ſinned againſt Heaven, and before thee, and am no more wor<g ref="char:EOLhyphen"/>thy to be called thy Son, make me as one of thy hired Servants:</hi> Thus he
+<pb n="91" facs="tcp:192295:57"/>
+debates the caſe with himſelf, and thereupon takes up this reſolve, well, <hi>I will ariſe, and go to my Fa<g ref="char:EOLhyphen"/>ther;</hi> there is his deliberate Reſo<g ref="char:EOLhyphen"/>lution.</p>
+            <p>
+               <hi>Secondly,</hi> Our Reſolution muſt be entire; that is, without boggling at any of God's Commands, and with<g ref="char:EOLhyphen"/>out the reſerve of any one Sin or Luſt; for no Man can ſerve two Maſters; the Commands of Chriſt and Satan are abſolutely inconſi<g ref="char:EOLhyphen"/>ſtent; Obedience to the one is downright Rebellion againſt the other; we muſt not capitulate with Chriſt, and think that ſtrictneſs in ſome Duties will excuſe our Indul<g ref="char:EOLhyphen"/>gence to any Luſt; the great ſtand<g ref="char:EOLhyphen"/>ing Law of Heaven is, <hi>Thou ſhalt love the Lord with all thy heart, and with all thy mind, and with all thy ſtrength, and him only ſhalt thou ſerve.</hi> The Work of the Chriſtian Calling is ſuch, as that it cannot be done without this; we have many Enemies to oppoſe, many Sins to conquer, many Luſts to mortifie,
+<pb n="92" facs="tcp:192295:58"/>
+many Duties to perform; therefore our Reſolution muſt be entire; and that is a Fourth Thing.</p>
+            <p>
+               <hi>Fifthly,</hi> This Chuſing in the Text implies a complacency and delight in the Object of our choice; though Election be an Act of the Will, yet it is quickened by the Motions of the Affections: As where the Will is bent againſt Sin, there is al<g ref="char:EOLhyphen"/>ways a hatred of it included; ſo where-ever it fixes upon God, it is attended with pleaſure and delight. When <hi>David</hi> had choſen God for his Portion, he expreſſes a delight in his choice, <hi>Pſalm</hi> 16. <hi>v.</hi> 6. <hi>The lines are fallen to me in pleaſant places, yea, I have a goodly heritage:</hi> This is the Language of a Soul affected with its own Felicity, and the pleaſure it takes in an All-ſufficient Good: So it was in his chuſing the Precepts of God, ſays he, <hi>I have choſen thy Pre<g ref="char:EOLhyphen"/>cepts,</hi> Pſalm 119.173. and in the next Verſe, <hi>Thy Law is my De<g ref="char:EOLhyphen"/>light:</hi> A Man loves what he chuſes; and where there is Love in the
+<pb n="93" facs="tcp:192295:58"/>
+Choice, there will be Pleaſure in the Service; for to love there is no<g ref="char:EOLhyphen"/>thing grievous. Thus you ſee what this chuſing God does imply and carry in the Nature of it, and that is the Firſt Thing.</p>
+            <p>
+               <hi>Secondly,</hi> Let me give you the Reaſons, why it is the Duty of Young Ones thus to chuſe God. Why,</p>
+            <p>One great Reaſon is, becauſe God commands it, that is the Firſt. Pray mind that of the Apoſtle, 2 Epiſtle <hi>John, v.</hi> 4. <hi>I rejoiced greatly that I found of thy Children walking in the Truth, as we have received a Com<g ref="char:EOLhyphen"/>mandment from the Father:</hi> Pray mind, theſe were a Ladies Children, to teach us, there are none too great to be good; theſe Children were found <hi>walking in the Truth;</hi> not taking a ſtep or two, making it a Buſineſs by the by, as your Gen<g ref="char:EOLhyphen"/>teels, and great Perſons uſe to do; but they perſiſted in it, they were ſteady in the Ways of God, and
+<pb n="94" facs="tcp:192295:59"/>
+that in their Childhood, againſt all the Tide and Stream of Youthful Luſts. Now this was that God had commanded. Mark ye, though they were Children, yet God com<g ref="char:EOLhyphen"/>mands this of them, <hi>I rejoiced greatly that I found of thy Children walking in the Truth, even as we have received a Commandment from the Fa<g ref="char:EOLhyphen"/>ther:</hi> But where do we find this Command, that Youth ſhould de<g ref="char:EOLhyphen"/>vote themſelves to God? You have it in the Text, <hi>Remember now thy Creator in the Days of thy Youth:</hi> And there is a Command older than that, <hi>Pſalm</hi> 78.5, 6, 7. <hi>He eſtabliſh<g ref="char:EOLhyphen"/>ed a Teſtimony in Jacob, and appoin<g ref="char:EOLhyphen"/>ted a Law in Iſrael, which he com<g ref="char:EOLhyphen"/>manded our Fathers, that they ſhould make them known to their Children:</hi> (What for?) <hi>That they might ſet their hope in God, and not forget the Works of God, but keep his Command<g ref="char:EOLhyphen"/>ments.</hi> Nay, our Lord Jeſus Chriſt ſtrictly enjoins it, <hi>Matt.</hi> 6.33. <hi>Seek ye firſt the Kingdom of God, and the Righteouſneſs thereof.</hi> Firſt, here does not only not a Preheminence firſt
+<pb n="95" facs="tcp:192295:59"/>
+above all, but it notes a Priority firſt before all.</p>
+            <p>It is very Obſervable, that our Saviour in that Prayer he gave to his Diſciples, which you call the Lord's Prayer, he gives but one Pe<g ref="char:EOLhyphen"/>tition for Temporal Things, and Five for Spiritual; and that for Temporals is neither the Firſt nor the Laſt. Not the Firſt, for <hi>Hallow<g ref="char:EOLhyphen"/>ed be thy Name</hi> is before it. Nor is it the Laſt, for <hi>Deliver us from Evil</hi> comes after it; to teach us that we muſt begin and end with God. In <hi>Mat.</hi> 21.28. The Command of the Father to his Son, is, <hi>Go Work to Day in my Vineyard:</hi> The com<g ref="char:EOLhyphen"/>mand of God brooks no Delays, the Promiſes of God have Reſpect to the Future, but the Command looks to the Preſent; <hi>To Day if you will hear his Voice, harden not your Hearts.</hi> Why did God under the Law require for himſelf the firſt Sheaf of the Harveſt, the firſt ripe Fruits, the Firſtlings of the Herd and Flock, but to teach us, that our firſt Affe<g ref="char:EOLhyphen"/>ctions,
+<pb n="96" facs="tcp:192295:60"/>
+our firſt Strength, our firſt Deſires, and firſt Choice, and firſt Service, ſhould be Devoted to God? For it is the command of God, and that is the great Reaſon and Rule of all Obedience; that is one.</p>
+            <p>Another Reaſon is this, the Na<g ref="char:EOLhyphen"/>ture of your Extract and Original requires this. Pray where had you your Beings? Young Ones, how came you into the World? Who made you? The Text tells you who this is in the very Notion God is mentioned in <hi>thy Creator.</hi> There is a Concatenation of Reaſons, for the Creatures Owning and Chuſing the Service of God, included in this Notion of a Creator.</p>
+            <p>Firſt, <hi>He made us, and not we our ſelves,</hi> Pſalm 100.3. The Pro<g ref="char:EOLhyphen"/>phet <hi>Iſaiah</hi> ſays, <hi>He ſpreadeth forth the Earth, he gives Breath to the Peo<g ref="char:EOLhyphen"/>ple upon it, and Spirit to them that Walk therein,</hi> Iſaiah 42.5. So <hi>Elihu</hi> ſays, Job 33.4. <hi>The Spirit of God hath made me, and the Breath of the
+<pb n="97" facs="tcp:192295:60"/>
+Almighty hath given me Life;</hi> and is it not Reaſon that he that made us ſhould b owned by us?</p>
+            <p>The Name of Father and Mother beſpeaks all Duty and Honour from you Children. If Children could begin their Duty in the Cradle, and continue it a Hundred Years, it could never Pay what Parents Deſerve for all their Sorrow, Care, Pains, and Coſt. Therefore <hi>Solomon</hi> is much in Preſſing this Argument upon Chil<g ref="char:EOLhyphen"/>dren, Prov. 23.22. <hi>Obey thy Father that Begat thee.</hi> Mark, <hi>that Begat thee;</hi> he gave thee thy Being; <hi>and Deſpiſe not thy Mother that brought thee Forth.</hi> We are ever bound to Honour and Obey them for what they have done for us. Theſe Ra<g ref="char:EOLhyphen"/>tional Beings do require it; which they have been the Means to Derive to us, and to Nouriſh and Nurſe up. This is highly Deſerved at our Hands; yea, though they grow Old and Impotent, and can ſerve us no longer. O what then does God deſerve from us, who is much more
+<pb n="98" facs="tcp:192295:61"/>
+the Author of our Being than our Father that Begat us, or than our Mother that Bare us? God is the Firſt Cauſe, Parents are but the Se<g ref="char:EOLhyphen"/>cond Cauſes of Generation; and the Second Cauſe depends upon the Firſt, and cannot act without it: Therefore it is ſaid of God, <hi>In him we Live, and Move, and have our Being.</hi> Therefore Man is nothing in our Production, if compared with God; and is it not Reaſon then, that he made us, ſhould be owned and Ho<g ref="char:EOLhyphen"/>noured by us; that he that is our Creator, ſhould be our Ruler?</p>
+            <p>We Own our Service where we Receive our Exiſtence; we are Deb<g ref="char:EOLhyphen"/>tors to God every one of us. We Owe him our ſelves, all we are, and all we have; for we are not our own, we are the Lord's Propriety, at his Diſpoſal, he hath the abſolute Do<g ref="char:EOLhyphen"/>minion over us, as giving Being to us. It is the Apoſtle's Argu<g ref="char:EOLhyphen"/>ment, <hi>Whether we Live, or Die, we are the Lord's, de jure,</hi> and it ſhould be ſo, <hi>de facto;</hi> therefore we ought
+<pb n="99" facs="tcp:192295:61"/>
+to Live to him, <hi>Rom.</hi> 14.7, 8. This Glory is the White at which we ſhould aim Living and <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ying: He is the Centre in which all the whole Circumſtances of our Life ſhould meet, for he made us, therefore <hi>Remember thy Creator.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> He made us after his own Image, and that is a Peculiar Priviledge of Creation beyond what other Creatures injoy. There is the Print of God's Hand upon all his Creatures; but there are none bear his Image but Angels and Men; and this you are Stampt with in the very Womb. Not one of you but have the Image of God upon you, the Youngeſt as well as the Oldeſt.</p>
+            <p>Though indeed the Moral Image of God which conſiſts in Righteouſ<g ref="char:EOLhyphen"/>neſs and Holineſs, that is Blotted out and Loſt by the Fall, we have Sinned it away; yet there is the Na<g ref="char:EOLhyphen"/>tural Image of God, and that re<g ref="char:EOLhyphen"/>mains in all of you; for what is Natural Light, Knowledge, Un<g ref="char:EOLhyphen"/>derſtanding?
+<pb n="100" facs="tcp:192295:62"/>
+What is Skill to Diſ<g ref="char:EOLhyphen"/>cern, and Wiſdom to Chuſe? What are all the Intellective and Elective Powers of the Soul, but the Image of God in Man? And what is this I<g ref="char:EOLhyphen"/>mage for, but in order to Recover that which is Loſt? It is to Capaci<g ref="char:EOLhyphen"/>tate us to Know God, to Seek him, to Chuſe him, to Live to him here, that ſo we may for ever Enjoy him; and if we do not make this our chief Work, we are made in Vain, and Degenerate into Brutes, being whol<g ref="char:EOLhyphen"/>ly acted by Sence, and the Deſign of this Image is Loſt; for by parta<g ref="char:EOLhyphen"/>king of his Likeneſs, we become bound to his Laws.</p>
+            <p>
+               <hi>Thirdly,</hi> That Power that crea<g ref="char:EOLhyphen"/>ted us at Firſt, does create us every Day: You are made of God every Day; for Preſervation is a Conti<g ref="char:EOLhyphen"/>nued Creation. As he gives Life, ſo he holds <hi>our Souls in Life; if God withdraw from us but a Moment we ſhall Die; Thou takeſt away their Breath, and they Die, and return to their Duſt.</hi> And do we receive our
+<pb n="101" facs="tcp:192295:62"/>
+Preſervation and Support from him, and ſhall we not pay Reſpect to him? This violates the very Law of Nature, and fills Heaven and Earth with Wonder; therefore God does Summons Heaven and Earth to hear his Complaint againſt ſuch Rebels, <hi>Iſa.</hi> 1.2. <hi>Hear, O Heaven, and give Ear, O Earth,</hi> ſays God. But why does he Summons theſe?</p>
+            <p>Why, <hi>Firſt,</hi> To Rebuke and Shame the Stupidity of his People, that the Senceleſs Creatures were more like to hear God ſpeak than they.</p>
+            <p>
+               <hi>Secondly,</hi> To ſhew that theſe Creatures by which God had done them much good, might well bear Witneſs on his behalf againſt their Ingratitude.</p>
+            <p>
+               <hi>Thirdly,</hi> To Convince them, how Stupendious a thing it was, that God Complains of againſt them; even ſuch as the Senceleſs Creatures might ſtand amazed to hear, were they capable of that Sence.</p>
+            <p>
+               <pb n="102" facs="tcp:192295:63"/>And what is the Complaint that God makes here? It is Twofold.</p>
+            <p>The one is Horrid Ingratitude.</p>
+            <p>The other is Tranſcendent Bru<g ref="char:EOLhyphen"/>tiſhneſs.</p>
+            <p>
+               <hi>Firſt,</hi> Horrid Ingratitude. <hi>Hear, O Heavens, and give Ear, O Earth.</hi> What muſt they hear? Why what God hath to ſay againſt this People? The Lord hath ſaid, <hi>I have nouriſhed and brought up Children, and they have Rebelled againſt me.</hi> For any of us Parents to bring forth and breed up Children, and after all our Trouble, Coſt, and Care, when they are come to Years of Know<g ref="char:EOLhyphen"/>ledge, not to own us: Nay, when they are grown to be Men, to turn to be Rebels, to violate ſuch Bonds, and break ſuch ſtrong Ties, Hea<g ref="char:EOLhyphen"/>ven and Earth may well cry out a<g ref="char:EOLhyphen"/>gainſt them. Why, this is my Caſe, ſays God; I made theſe Children, I maintained them, I
+<pb n="103" facs="tcp:192295:63"/>
+brought them up at my Coſt, and yet after all they will not Know me, they will not Own me. In<g ref="char:EOLhyphen"/>ſtead of Chuſing me, they turn their Back upon me, and turn Rebels a<g ref="char:EOLhyphen"/>gainſt me; they have not a bit of Bread to Eat, but as I feed them, nor a Rag to Wear, but as I cloath them. It is <hi>my Wooll and my Flax,</hi> yet I am forgotten, and the ve<g ref="char:EOLhyphen"/>ry Law of Nature broken. Thus God Complains of their baſe In<g ref="char:EOLhyphen"/>gratitude.</p>
+            <p>
+               <hi>Secondly,</hi> He Complains of their Tranſcendent Brutiſhneſs, which was ſuch, that it outdid the moſt Brutiſh amongſt Brutes. The Ox and the Aſs are reckoned amongſt the Dulleſt and moſt Stupid Crea<g ref="char:EOLhyphen"/>tures; yet, ſays God, they are worſe than theſe; for <hi>the Ox knows his Owner, and the Aſs his Maſter's Crib, but</hi> Iſrael <hi>doth not know me: My People doth not conſider.</hi> Theſe Beaſts as Stupid as they are, yet they after their Kind own them that Feed them, and are ready at all
+<pb n="104" facs="tcp:192295:64"/>
+Times to ſubmit to and ſerve them; yet, ſays God, they will not own me: Nay, ſays God, they will not ſo much as conſider what I have done for them, that thereby they might be brought to own and ſerve me. <hi>My People doth not conſi<g ref="char:EOLhyphen"/>der.</hi>
+            </p>
+            <p>
+               <hi>Fourthly,</hi> He that made us, can unmake us; he that gave us our Being, can turn us into nothing; he that created us, can deſtroy us; he who breathed thy Soul into thy Body, can take it away, and throw it into Hell. And this is the very Argument our Lord Chriſt makes uſe of, Mat. 10.28. <hi>Fear him who is able to caſt Body and Soul into Hell.</hi> All theſe Arguments do re<g ref="char:EOLhyphen"/>ſult from the Relation we ſtand in to God as he is our Creator.</p>
+            <p>He made us.</p>
+            <p>He made us after his own Image.</p>
+            <p>
+               <pb n="105" facs="tcp:192295:64"/>He makes us continually, by pre<g ref="char:EOLhyphen"/>ſerving us.</p>
+            <p>And he that made us can de<g ref="char:EOLhyphen"/>ſtroy us, and will you forget your Maker? This will provoke him, when they that are made by him ſeek not after him. <hi>None ſays, Where is God my Maker?</hi> Job 35. v. 10. All Worſhip, and Reſpect, and Obedi<g ref="char:EOLhyphen"/>ence, is a juſt due to God as your Maker: You had your Being from God, therefore you ſhould always ſeek after God. It is natural for every thing to make to the place of its Original: <hi>Solomon</hi> ſhews it you in divers Inſtances; ſo does the Sun, <hi>It ariſes, and goeth down, and haſt<g ref="char:EOLhyphen"/>neth to the place whence it aroſe, Ec<g ref="char:EOLhyphen"/>cleſ.</hi> 1. <hi>v.</hi> 5. So doth the Wind, <hi>It whirls about continually, and re<g ref="char:EOLhyphen"/>turneth again to its circuits,</hi> v. 6. So does the Rivers, <hi>
+                  <g ref="char:V">Ʋ</g>nto the place from whence they came, thither they do return again,</hi> v. 7. And ſhould not Man that is made by God, and comes from God, ſeek after God,
+<pb n="106" facs="tcp:192295:65"/>
+and take up his reſt in God? Na<g ref="char:EOLhyphen"/>ture teacheth this.</p>
+            <p>A Circle is the moſt perfect Fi<g ref="char:EOLhyphen"/>gure, becauſe it ends where it began; the laſt point meets in the firſt from whence it came; it is the Perfection of the Rational Creature, that had its Being from God, to ſeek after him, and terminate it ſelf in him; that is the ſecond Reaſon.</p>
+            <p>
+               <hi>Thirdly,</hi> To chuſe God betimes, as it is a Duty of great concernment, ſo it is a Duty of great advantage, and benefit. Religion, however it is miſtaken in the World, is the moſt advantageous courſe any Man can take; it affords the greateſt Pro<g ref="char:EOLhyphen"/>miſes, the richeſt Comforts, and the ſureſt Rewards: And therefore the Holy Ghoſt tells us, <hi>That Godlineſs is profitable for all things,</hi> 1 Tim. 4.8. and where lies the profit? It tells you in the next Words; <hi>It hath the promiſe of the Life that now is,</hi> that includes all good here; <hi>and of the Life that is to come,</hi> that includes
+<pb n="107" facs="tcp:192295:65"/>
+all good hereafter. But to be a little particular in ſhewing you the advan<g ref="char:EOLhyphen"/>tages of Religion.</p>
+            <p>
+               <hi>Firſt,</hi> If you have choſen God, he is yours for ever; for he becomes yours by your own choice, and you may lay claim to him as yours, and may ſay as <hi>Thomas</hi> did, <hi>My Lord, and my God:</hi> Or with <hi>David, This God is our God, for ever and ever,</hi> Pſalm 48. v. 14. And is not this a great advantage and benefit?</p>
+            <p>Nay, you have not only a Pro<g ref="char:EOLhyphen"/>priety in God, but you have the ſpe<g ref="char:EOLhyphen"/>cial Preſence of God: However it may be as to that Preſence of God that is Arbitrary, yet you have al<g ref="char:EOLhyphen"/>ways his Preſence in a Fourfold Senſe.</p>
+            <p>The Preſence of his Mercy, to pardon your Sins.</p>
+            <p>The Preſence of his Power, to ſupport your Perſons.</p>
+            <p>
+               <pb n="108" facs="tcp:192295:66"/>The Preſence of his Omniſcience, to know your Wants.</p>
+            <p>And the Preſence of his Goodneſs, to ſupply them.</p>
+            <p>He is your God, your own God, as <hi>David</hi> calls him: <hi>God, even our own God, ſhall bleſs us.</hi> A Man can never be happy that has no<g ref="char:EOLhyphen"/>thing of his own; and a Man can call nothing his own but God. All things elſe may be loſt, but he that has made ſure of God, his Right can never be invaded, nor his Propriety loſt: <hi>Mary hath choſen that good part, which ſhall never be taken from her:</hi> And is not this a Bene<g ref="char:EOLhyphen"/>fit?</p>
+            <p>
+               <hi>Secondly,</hi> Is it not a great Benefit to have the Heart fixt and ſtedfaſt in the Ways of God? The Cauſe of all Halting in Religion, is the Want of a Choice and Purpoſe reſolutely ſet: The Apoſtle ſays, <hi>James</hi> 1.8. <hi>A Double-minded Man is <g ref="char:V">Ʋ</g>nſtable
+<pb n="109" facs="tcp:192295:66"/>
+in all his Ways.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> A Two-Soul'd Man, one that has a Heart and a Heart, one for this way, another for that; one for God, and another for the World: Such a one muſt needs be unſtable, and of an inconſtant Soul; being as ready to depart from God, as to cloſe with him. But he that owns God, and his Ways by choice, will ſuit his Converſation to his Election. If he be ſincere in his choice of God, that will make him faithful in all his car<g ref="char:EOLhyphen"/>riage to God: And therefore <hi>Joſhua,</hi> when he would ingage the People to continue faithful with God, he draws them on to a choice, and then lays that upon their Conſci<g ref="char:EOLhyphen"/>ence to bind them, <hi>Joſhua</hi> 24.22. <hi>Ye are witneſſes againſt your ſelves, that ye have choſen the Lord, to ſerve him; and they ſaid, we are witneſſes.</hi> It greatly ſtrengthens a Bond, when a Man freely binds himſelf.</p>
+            <p>
+               <pb n="110" facs="tcp:192295:67"/>
+               <hi>Thirdly,</hi> This reſolute choice of God is of great advantage in carry<g ref="char:EOLhyphen"/>ing on the Work of the Heavenly Calling with the more eaſe and de<g ref="char:EOLhyphen"/>light; becauſe a choice is nothing elſe but an inclination of the Soul guided by Judgment, ſtrengthened by Reſolution, and actuated by Love. Now as Judgment juſtifies our choice, and Reſolution makes it entire, ſo Love makes it eaſie and ſweet; and ſo our delight in o<g ref="char:EOLhyphen"/>beying God, anſwers to the ſince<g ref="char:EOLhyphen"/>rity of our chuſing of him.</p>
+            <p>
+               <hi>Fourthly,</hi> This chuſing God gives great peace and comfort in the Ways of God; this is as natural as for the Fire to produce Heat: <hi>The Fruit of Righteouſneſs is Peace:</hi> As Sin cauſes a Sting in the Conſcience, and a Wound in the Soul, ſo every good Action done in Sincerity, hath the approbation of the Conſcience, and that gives peace, and the witneſs of the Spirit, that brings joy and com<g ref="char:EOLhyphen"/>fort: This is intended in that of
+<pb n="111" facs="tcp:192295:67"/>
+the Apoſtle, <hi>Rom.</hi> 14.7. <hi>The King<g ref="char:EOLhyphen"/>dom of God is Righteouſneſs, and Peace, and Joy, in the Holy Ghoſt.</hi> Here is a double Benefit mentioned, Peace and Joy: There is a difference between them.</p>
+            <p>Peace is a tranquility of Mind ſpringing from the rectitude of our Actions.</p>
+            <p>Joy is from the Impreſſion of the comforting Spirit.</p>
+            <p>Peace is an acquittance from Con<g ref="char:EOLhyphen"/>ſcience, but Joy in the Holy Ghoſt is an acquittance from God himſelf, who is our Supream Judge, is the beginning of that Endleſs Joy that he has prepared for them that love him.</p>
+            <p>
+               <hi>Fifthly,</hi> This intitles you to a future and a fuller reward; for in chuſing God, you chuſe him for the future, as well as for the preſent; in chuſing the ways of God, you chuſe all that is intailed upon
+<pb n="112" facs="tcp:192295:68"/>
+them, and that is Life and Bleſ<g ref="char:EOLhyphen"/>ſedneſs: So ſays <hi>Wiſdom, Whoſo findeth me, findeth Life.</hi> The Word ſets before every one of us Life and Death, as <hi>Moſes</hi> did to that People of old, <hi>Deut.</hi> 30.15. Now many chuſe Death rather than Life; for they chuſe to pleaſe their Luſts, and to gratifie their carnal Appetite, and therein they chuſe Death; as <hi>Chriſt</hi> ſays, <hi>All they that hate me, love Death:</hi> But he that chuſes God, and the Ways of God, chuſes Life, and he ſhall have it; he chuſes Endleſs Fe<g ref="char:EOLhyphen"/>licity in another World, and he ſhall never be diſappointed. O the be<g ref="char:EOLhyphen"/>nefit of chuſing God and his Ways! That is a Third Thing.</p>
+            <p>
+               <hi>Fourthly,</hi> The Chuſing God and his Ways in our Youth, is the only Means to Prevent or Cure the ma<g ref="char:EOLhyphen"/>ny Miſchiefs that flow from our Neglect of it. Days of Youth are Days of Folly; now the Way to correct the Follies of Youth, is to be Wiſe toward God. <hi>Childhood and Youth are Vanity.</hi> Now the Way to
+<pb n="113" facs="tcp:192295:68"/>
+Cure this Vanity, is to be Serious and Earneſt about Eternity. Youth is moſt apt to be carried away by the Power of Luſt; hence is that Coun<g ref="char:EOLhyphen"/>ſel of the Apoſtle, <hi>Flee Youthful Luſts;</hi> and the proper Way to flee from them, is to flee to God in Chriſt for Help and Strength againſt them.</p>
+            <p>Youth has a great Advantage a<g ref="char:EOLhyphen"/>gainſt Sin, had they but Wiſdom to Improve this <hi>now</hi> in the Text. Now Sin is but Budding, and therefore may the eaſier be Nipt; now Cor<g ref="char:EOLhyphen"/>ruptions are but Twigs, and therefore may ſooner be Lopt off; now Luſt is but Conceiving, and therefore may more eaſily be Stifled in the Birth. A green Wound is ſoon Cured, but if it be let alone long it may turn to a Gangreen that may prove In<g ref="char:EOLhyphen"/>curable. O my Brethren, there is no Age ſo fit, ſo ſuitable to the Na<g ref="char:EOLhyphen"/>ture of Religion, as Youth is.</p>
+            <p>Religion is the Chriſtian Race; now who Chuſes an old Man to run
+<pb n="114" facs="tcp:192295:69"/>
+a Race? It is called a Wreſtling, and who will call an old Man into the Ring that is ready to have his Heels tript up by his own Age? It is cal<g ref="char:EOLhyphen"/>led a Warfare, and under the Law the Aged were Diſcharged from War, to ſhew that it is the pro<g ref="char:EOLhyphen"/>per Work of Youth. Religion is a Calling, a High, a Holy, a Heavenly Calling. Now Youth is the fitteſt Seaſon for Chuſing any Calling; and therefore the Text bids us to Chuſe the Heavenly Calling, by Chuſing God in the Days of our Choice.</p>
+            <p>The Chuſing of worldly Things firſt ſhuts God out of our Thoughts, and Senſual Objects quickly draw the Heart from God; therefore you ſhould Chuſe God firſt; that is the Fourth Thing.</p>
+            <p>
+               <hi>Fifthly,</hi> (To name no more) No Man knows how ſoon his Day of Grace may be paſt, therefore he ought to Chuſe God betimes. The Seaſons of your Cloſing with God are Arbitrary. Salvation is not to
+<pb n="115" facs="tcp:192295:69"/>
+be had when you will, but when God will; and God's Will is that you ſhould ſeek after it now in your Youth. God hath his ſet Time of finding; <hi>Seek the Lord while he may be found, Iſa.</hi> 55.6. And let me tell you, if God's Time be once paſt, though you ſeek him you will never find him; <hi>They ſhall ſeek me Early, but they ſhall not find me, Prov.</hi> 1.28. I ſay this is the very thing, that moſt periſh upon their ſlighting of God's Time. <hi>Eſau</hi> he would have had the Bleſſing, but alas he came too late, he miſſed the Seaſon, <hi>Heb.</hi> 12.6. The Fooliſh Virgins would fain have entred in, but when they ſhould have entred, their Oil was to Get; and when they would have entred, the Door was Shut: You ſhould therefore Chuſe God betimes, becauſe you know not how ſoon the Day of Grace may be paſt. Theſe are the Reaſons of the Point.</p>
+            <p>And now I come to the Applica<g ref="char:EOLhyphen"/>tion, and I ſhall make but two Uſes of it.</p>
+            <p>
+               <pb n="116" facs="tcp:192295:70"/>One by Way of Trial: And,</p>
+            <p>The other by Way of Counſel.</p>
+            <p>
+               <hi>Firſt,</hi> By Way of Trial; you have heard, Young Ones, what your Duty is; to begin with God in the firſt Place, and make him the Object of your Choice. Now the Queſtion I would ask you, is, what have you done in this Matter? You that are in your Youth, and Prime of your Days, what have you done in this Matter? Now is your chu<g ref="char:EOLhyphen"/>ſing time, pray what Choice have you made? It is a needful Queſti<g ref="char:EOLhyphen"/>on, God help you to anſwer it in your own Hearts. One Chuſes this Imploy, another that; one Chuſes to go to Sea, another Chuſes to tar<g ref="char:EOLhyphen"/>ry on Shore; one Chuſes this Cal<g ref="char:EOLhyphen"/>ling, another Chuſes that; but have you Choſen God to be your God? Have you ever made that Choice? It was <hi>David</hi>'s Queſtion to the <hi>Egyp<g ref="char:EOLhyphen"/>tian,</hi> 1 <hi>Sam.</hi> 30.14. <hi>To whom be<g ref="char:EOLhyphen"/>longeſt thou?</hi> To whom belongeſt
+<pb n="117" facs="tcp:192295:70"/>
+thou, Young Ones, to whom do you belong? Pray, do you belong to God? Why, you will ſay, how may I know this? It can't be known <hi>a Priori,</hi> as we ſay, by God's Chuſing of you, that is an Immi<g ref="char:EOLhyphen"/>nent Act, and Imminent Acts cannot give Evidence, they Prove nothing; therefore it muſt be known <hi>a Poſteriori,</hi> by ſome Subſe<g ref="char:EOLhyphen"/>quent Act of our own.</p>
+            <p>There are two Ways of being the Lord's People, but there is but one Way of knowing it; we are made his both by his Act and our own; by his Electing of us, and by our Electing of him. Now we cannot know that we are God's by his Act, by his Chuſing of us; but we may know it by our Act, by our Chu<g ref="char:EOLhyphen"/>ſing of him. This is the Queſtion that I would put to you; have you ſeriouſly Choſen God to be your God? Did you ever make this Choice? This muſt be before any one can lay a true Claim to him. God will never be yours (let me tell you)
+<pb n="118" facs="tcp:192295:71"/>
+without your own Choice. Now have you ever Choſen God? I do not mean at a Preſent Pinch; it may be under the Checks of Conſcience, or in ſome Preſent Diſtreſs, many will take God to be their God, but this Choice ſeldom comes to any thing, it laſts but till the Storm is over, and the Diſtreſs removed; but have you ever choſe God in the Sence Deſcribed? Have you Choſen him by a Deliberate Act of the Will Guided by Judgment, and with full Purpoſe of Heart to cleave to God? How ſhall I know this, you will ſay? Briefly, there are di<g ref="char:EOLhyphen"/>vers Ways by which it may be known; I will name but Two or Three. It may be known,</p>
+            <p>
+               <hi>Firſt,</hi> By a Self-dedication and de<g ref="char:EOLhyphen"/>voting of your ſelves to be the Lord's. Whenever the Soul truly Chuſes God for his God, it is al<g ref="char:EOLhyphen"/>ways accompanied with a Self-de<g ref="char:EOLhyphen"/>dication to God. So it is ſaid of thoſe <hi>Macedonians,</hi> 2 <hi>Cor.</hi> 8.5. <hi>They gave themſelves to the Lord.</hi> Now
+<pb n="119" facs="tcp:192295:71"/>
+what can you ſay to this? Have you ever given up your ſelves to be the Lord's, reſolving to live in an Intire Submiſſion to his Will: Have you ever made a Solemn Covenant be<g ref="char:EOLhyphen"/>tween God and your own Souls; that God ſhall be your God, and that you, through his Grace, will be his? Why, if ſo, then you have Choſen God, and he is your God.</p>
+            <p>
+               <hi>Secondly,</hi> It may be known by your Behaviour in Reference to Sin. When you are Tempted to any Sin, either by Satan, or by your own Luſts, what do you do? Do you give Way to it, or do you run to Chriſt for Strength againſt it? Do you Comply with it, or do you Re<g ref="char:EOLhyphen"/>ſiſt it? Do you Countenance or Curb it? Is it Loved or Hated? This is no hard Caſe to Determine, every Child can tell what he Loves, and what he Hates. No one that Lives in the Love of any known Sin, can ſay that ever he hath Cho<g ref="char:EOLhyphen"/>ſen God; mind it, any one Luſt indulged, will certainly confute this
+<pb n="120" facs="tcp:192295:72"/>
+claim: For where Sin is Loved, there it Reigns, and where Sin Reigns, God is Diſowned: And can any one Diſown God, and yet ſay he hath Choſen God? It cannot be.</p>
+            <p>
+               <hi>Thirdly,</hi> It may be known by your Obedience: He that Chuſes God for his chief Good, Chuſes him for his only Lord, and that neceſſarily inferrs Obedience to him in all things. So ſays the Apoſtle, <hi>His Servants ye are whom ye obey, Rom.</hi> 6.16. Many make their Boaſt of God, and Claim a Propriety in him, but whom do you obey? Pray mind that; doth the Fleſh bear ſway? Doth Pride reign? Do youthful Luſts and Vanities com<g ref="char:EOLhyphen"/>mand the Heart? Why then I tell you, God was never the Object of your Choice; you may Profeſs him, and Talk of God, but you have never Choſen God for your God. It is not Profeſſion, but Affection and Action that muſt warrant our Title to God.</p>
+            <p>
+               <pb n="121" facs="tcp:192295:72"/>
+               <hi>David,</hi> Pſalm 119.94. tells God, <hi>I am thine, Lord, I am thine.</hi> Ay, but how does he prove it? Why, ſays he, <hi>I have ſought thy Precepts.</hi> Pray mind, he does not only ſay, I have kept thy Precepts, I have done them, but I have ſought them: Now to ſeek them is much more than barely to do them. It implies Four Things.</p>
+            <p>
+               <hi>Firſt,</hi> An earneſt Deſire to know them; and that is a great Evidence of an upright Heart, and a ſincere Love to God, to be Inquiſitive into the Will of God.</p>
+            <p>
+               <hi>Secondly,</hi> It implies an Affection and Reſpect; no Man ſeeks what he doth not Love: <hi>I have Reſpect</hi> (ſays <hi>David) to all thy Commandments.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> It implies a conſtant En<g ref="char:EOLhyphen"/>deavour to Practice them; for the end of ſeeking is keeping; we ſeek to know his Will, that we may do it; and therefore ſeeking and keep<g ref="char:EOLhyphen"/>ing
+<pb n="122" facs="tcp:192295:73"/>
+are put together. <hi>Pſalm</hi> 119.2. <hi>Bleſſed are they that keep his Teſtimonies, and that ſeek him with the whole Heart.</hi>
+            </p>
+            <p>
+               <hi>Fourthly,</hi> It implies earneſt Deſires after higher Meaſures of Grace, for the bettering of our Obedience; this is ſeeking. Now ſuch a ſeeking is a ſure Evidence of your chuſing of God. O therefore that I could pre<g ref="char:EOLhyphen"/>vail with Young Ones to come to the Trial in this Matter, whether ever you have really choſen God or no! And I tell you why I urge it; for Three Reaſons.</p>
+            <p>
+               <hi>Firſt,</hi> Becauſe it is about the moſt concerning Caſe in the World; as it is the greateſt Duty in the World to ſeek after God, ſo it is the greateſt Priviledge in the World to know my Intereſt in God; therefore it is a Matter worth Inquiring into. What if all the World were thine? If God be not thine, you are undone; and will you not know whether he be yours or no?</p>
+            <p>
+               <pb n="123" facs="tcp:192295:73"/>
+               <hi>Secondly,</hi> I urge it becauſe of the Treachery and Deceitfulneſs of your Hearts; <hi>The Heart is Deceitful a<g ref="char:EOLhyphen"/>bove all things;</hi> (the Prophet ſays ſo) in Young Ones eſpecially, and in nothing more than in this Mat<g ref="char:EOLhyphen"/>ter. How fondly and preſumptu<g ref="char:EOLhyphen"/>ouſly do many Boaſt of their Pro<g ref="char:EOLhyphen"/>priety in God, when alas they have no manner of Intereſt in him? It was the very Caſe of <hi>Laodicea, She thought her ſelf Rich, Increaſed in Goods,</hi> and that ſhe ſtood in need of nothing, when at the ſame time ſhe needed all things, and was Wretch<g ref="char:EOLhyphen"/>ed and Miſerable.</p>
+            <p>The Apoſtle ſays, <hi>If any Man think himſelf Something, when he is No<g ref="char:EOLhyphen"/>thing, he deceives himſelf;</hi> and the Reaſon why many are thus Decei<g ref="char:EOLhyphen"/>ved, is becauſe they truſt to their own flattering Opinion, and are not ſenſible what a cheating Impoſtor they carry in their own Boſoms. Pride and Self-love will never believe any thing againſt Self, and ſo it takes
+<pb n="124" facs="tcp:192295:74"/>
+that for granted, which ought to be proved; and ſhould we not Try in this Matter?</p>
+            <p>
+               <hi>Thirdly,</hi> A well-grounded Evi<g ref="char:EOLhyphen"/>dence of our Intereſt in God, is that which will comfort us when nothing elſe in the World can; that is, in a dying Hour; then is the time when all other Comforts will certainly fail, when a Man looks upon himſelf as Launching into a<g ref="char:EOLhyphen"/>nother World, and begins to conſi<g ref="char:EOLhyphen"/>der in Earneſt what ſhall become of his Precious Soul; how terrify<g ref="char:EOLhyphen"/>ing muſt ſuch Thoughts be to him that has no Evidence of his Inte<g ref="char:EOLhyphen"/>reſt in God? Nothing but this can ſupport the Soul at ſuch a time. It is this your chuſing God that will Inable you to Triumph over Death, and the Grave, to ſay with the Apo<g ref="char:EOLhyphen"/>ſtle, <hi>O Death, where is thy Sting? O Grave, where is thy Victory?</hi> It is true, natural Fears may be ſtrong, and the Thoughts of Diſſolution may ſhake us, but a well-grounded Evidence of our Intereſt in God will
+<pb n="125" facs="tcp:192295:74"/>
+notwithſtanding carry us through all.</p>
+            <p>What would one give when he lies upon a Dying Bed, for one good ground of Hope that God is his? Why now is the time to bring this Matter to a good Iſſue: Now is your time; and therefore it is highly Neceſſary you ſhould put this Matter upon Trial, whether God be yours or no. So much for that Uſe.</p>
+            <p>The next Uſe ſhall be by Way of Counſel and Exhortation, and I would ſpeak to it in two Branches.</p>
+            <p>
+               <hi>Firſt,</hi> To ſuch of you, Young Ones, that have never yet choſen God; that have never remembred God in the Days of your Choice.</p>
+            <p>And then to them that have done ſo.</p>
+            <p>
+               <hi>Firſt,</hi> To thoſe Young Ones that never as yet have choſen God for
+<pb n="126" facs="tcp:192295:75"/>
+theirs, but have lived <hi>without God in the World</hi> to this Day; I would ſay to you as <hi>Elihu</hi> ſaid, <hi>Job</hi> 34.4. <hi>Let us chuſe to our ſelves Judgment, that we may know what is good.</hi> To chuſe Judgment, is to chuſe judici<g ref="char:EOLhyphen"/>ouſly, with mature deliberation; that is the way to know what is good. The reaſon why ſo many put Darkneſs for Light, and Light for Darkneſs, Bitter for Sweet, and Sweet for Bitter, it is for want of chuſing in Judgment, and ſo know<g ref="char:EOLhyphen"/>ing what they chuſe. Now my Meſſage to you this Day is, to diſ<g ref="char:EOLhyphen"/>charge this Duty; you Young Ones, God hath ſent me this Day to ſpeak to you; you that have yet ſeen but the Third Hour of the Day, I am ſent this Day to you, you are called in the Name of the God that made you, and put Breath into your No<g ref="char:EOLhyphen"/>ſtrils; in the Name of the Lord Chriſt, who ſhed his Blood to redeem you from Sin and Hell: In his Name I now ſpeak, this Call is from him, and the Buſineſs you are called to, is to be ſo kind to your
+<pb n="127" facs="tcp:192295:75"/>
+own Souls, as to take God in Chriſt from this Day for your God; re<g ref="char:EOLhyphen"/>member to chuſe God now in your chuſing Days. When thou chu<g ref="char:EOLhyphen"/>ſeſt a Calling, by which to main<g ref="char:EOLhyphen"/>tain thy ſelf; when thou chuſeſt a Wife, with whom to ſpend thy Days, O then be ſure above all chu<g ref="char:EOLhyphen"/>ſing, chuſe God to be thy God.</p>
+            <p>I might multiply Motives to preſs this Duty upon you: Take a few.</p>
+            <p>
+               <hi>Firſt,</hi> Your giving your ſelves to God, it is but paying a Debt, a juſt Debt; what <hi>Paul</hi> ſays of <hi>Phi<g ref="char:EOLhyphen"/>lemon,</hi> God may ſay much more to us, <hi>Thou oweſt to me even thy own ſelf:</hi> For whence came you? Where had you your ſelves, but from him, the Origin of all Being? Therefore 'tis but Juſtice to let God have his own. God gave you your ſelves, but let me tell you, he did not give you a Propriety in your ſelves; that is a Right God cannot part with; therefore you are not your own, nor can you be: God gave
+<pb n="128" facs="tcp:192295:76"/>
+you a Life, he gave you a Soul, he gave you Underſtanding, he gave you a Will, he gave you a Conſcience, he gave you Affections, he gave you all things, but for what intent? Not to eſtabliſh a Dominion in your own Perſons, but only a Stewardſhip, and a courſe of Service; you are not Lords of your own Lives, but Keep<g ref="char:EOLhyphen"/>ers of them for God; therefore ſays the Apoſtle, If we live, we are to live to the Lord, for no Man lives to himſelf.</p>
+            <p>
+               <hi>Secondly,</hi> Conſider how freely God offers himſelf to be yours; the Arms of his Mercy they are opened to embrace you, and he is ready to forgive and forget all that is paſt, whatever thy Sins are, or have been: He calls Heaven and Earth to record, that if you miſcarry, the blame is not in him; you have his Oath, that he takes <hi>no Pleaſure in the Death of a Sinner;</hi> and therefore he calls ſo earneſtly, <hi>Turn ye, turn ye, why will ye die?</hi> Now pray, what anſwer can you make, if ſuch Tenders of
+<pb n="129" facs="tcp:192295:76"/>
+God, and ſuch Bowels of Love, ſhould be ungratefully ſlighted?</p>
+            <p>
+               <hi>Thirdly,</hi> Conſider the Deſign of Chriſt: The great Deſign of Chriſt, in <hi>what he hath done,</hi> and what he is doing; he hath ſtood in your ſtead to bear the Wrath of God, which you and I muſt elſe have born for ever.</p>
+            <p>Suppoſe you heard Chriſt ſaying to you, Soul, why (thinkeſt thou) did I take up thy Nature? Why was guilt charged upon me? Why was <hi>I numbred amongſt the Tranſgreſſors?</hi> Why was I made <hi>a Man of Sorrows?</hi> Why was my Hands nailed, my Side pierced, my Head crowned with Thorns? Why was my deareſt Blood poured out? What canſt thou conceive ſhould move me to under<g ref="char:EOLhyphen"/>go the bitter, the accurſed Death of the Croſs, if not to ſave thee from thy Sins, and bring thee to God? And haſt thou no need of a Chriſt now, and of his Righteouſneſs? Why, ſays he, I am ready at thy
+<pb n="130" facs="tcp:192295:77"/>
+Call, ſpeak and tell me what thou wanteſt? I am now in Heaven, at my Father's Right Hand ready to re<g ref="char:EOLhyphen"/>lieve thee; ask what thou wilt, I will preſent thy Prayers to my Fa<g ref="char:EOLhyphen"/>ther, perfumed with my Righteouſ<g ref="char:EOLhyphen"/>neſs, and they ſhall all be granted. O what Encouragement ſhould this be to come to Chriſt! Go thy way, Young One, take thy Life in thy Hand, as once <hi>Eſther</hi> did; preſent thy Petition, and ſay with her, <hi>If I find favour in thine Eyes, let my Life be given at my requeſt:</hi> Let my Soul live by a Saving Intereſt in God.</p>
+            <p>
+               <hi>Fourthly,</hi> Conſider what Joy thy chuſing of, and cloſing with God betimes, will cauſe in Heaven: I tell you, there is not the Youngeſt, the Meaneſt of you, but you may help to fill all the Angels in Heaven with Joy. How is that? Why, take God for your God, and it will be ſo. O how theſe Noble Creatures tri<g ref="char:EOLhyphen"/>umph to ſee the leaſt increaſe of Chriſt's Kingdom! If there be but
+<pb n="131" facs="tcp:192295:77"/>
+one Lamb, one Young One in all this Aſſembly added to the Flock of Chriſt this Day, all the Angels in Heaven will rejoice, Ay, all the <hi>An<g ref="char:EOLhyphen"/>gels in Heaven; nay, it will be the Day of the very Gladneſs of Chriſt's Heart; For as the Bridegroom rejoices over his Bride, ſo ſhall thy God rejoice over thee,</hi> Iſa. 62.5.</p>
+            <p>
+               <hi>Fifthly,</hi> Conſider how uncertain the meaſure of thy Life is; thou mayeſt think to live many Years, and yet may'ſt die ſoon: How many have you gone after to the Grave, that came after you into the World? <hi>Job</hi> ſays, (ſpeaking of the Sinner) <hi>The number of his Months are cut off in the midſt,</hi> Job 21.21. It is not only a Deſcription of Death, but of Early Death; an immature Death is the cutting off our Months in the midſt; this is that <hi>David</hi> deprecates, <hi>Take me not away in the midſt of my Days:</hi> As our Times are in God's Hand, in regard of the event of them, ſo they are in regard of the length of them; either God may
+<pb n="132" facs="tcp:192295:78"/>
+not give thee time to grow old, or not a heart to repent when thou art old: When ſo many offers of Grace are refuſed, and ſo many mo<g ref="char:EOLhyphen"/>tions of the Spirit reſiſted by thee, I tell thee thy heart is in great danger of being for ever hardened.</p>
+            <p>How many Young Ones are now awake, and that for ever, in Endleſs Flames, that would never open their Eyes to ſee their danger till they came thither?</p>
+            <p>That is an aweful Word, <hi>Pſalm</hi> 58.9. <hi>Before your Pots can feel the Thorns, he ſhall take them away, as with a Whirlwind, both living, and in his Wrath.</hi>
+            </p>
+            <p>
+               <hi>[Before your Pots can feel the Thorns:]</hi> That is, before you have any real Sence of your danger. To what ſhall I compare the Miſeries of Young Ones, that are taken away ſo often in the midſt of all their Pleaſure, before ever they thought of Death? It is a thing ſad, be<g ref="char:EOLhyphen"/>yond
+<pb n="133" facs="tcp:192295:78"/>
+compariſon, beyond all ex<g ref="char:EOLhyphen"/>preſſion: Have you then, Young Ones, no pity for your Souls? Or do you reſolve not to prepare for the Tryal, till the Aſſizes come, and the Judge ſits on the Bench?</p>
+            <p>If we had a certain knowledge from Heaven, that this was the laſt Sermon we ſhould ever hear, that this was the Laſt Call to <hi>Remember our Creator</hi> that God would ever al<g ref="char:EOLhyphen"/>low us, that we ſhould be in ano<g ref="char:EOLhyphen"/>ther World before another Day comes about, with how many Tears ſhould we bewail our Folly of neg<g ref="char:EOLhyphen"/>lecting God? And how ſhould we rend the Heaven with Cries, that God would own us, and help us to own him; and that he would re<g ref="char:EOLhyphen"/>prieve us a little longer, that we might make ſure of an Intereſt in him, <hi>before we go hence, and be no more?</hi> And why ſhould we not do ſo now, ſeeing <hi>we know not the day nor hour when the Son of Man will come?</hi>
+            </p>
+            <p>
+               <pb n="134" facs="tcp:192295:79"/>The Lord awaken Young Ones (for none elſe can awaken them) and perſwade them to ſeek after God betimes: O that you would be perſwaded to this! He is the moſt Eligible Object in the World; they that have choſen him will tell you ſo, they have found him ſo; you will never have cauſe to repent of your Choice; you may have cauſe to repent of other Choices. None ever made a carnal Choice, but he repen<g ref="char:EOLhyphen"/>ted firſt or laſt; either here, with a godly Sorrow, whilſt Matters were capable of retrieving; or in Eternal Miſery, where there is Repentance without returning: But who ever repented of chuſing God? Name one that ever did: <hi>Job</hi> once curſed the Day of his Birth, but who ever curſed the Day of his New Birth? Who ever repented of his cloſing with Chriſt, or of his being ſanctifi<g ref="char:EOLhyphen"/>ed and made like God?</p>
+            <p>
+               <pb n="135" facs="tcp:192295:79"/>When Death comes, then the Cry begins amongſt Carnal Sinners; How have I hated Inſtruction! How have I forgotten God, and my Eter<g ref="char:EOLhyphen"/>nal Intereſt! <hi>How have I regarded Lying Vanities, to the forſaking of my own Mercies!</hi> O this Flattering World! How hath it deceived and undone me! This will be your cry when you come to a Sick Bed. Now did you ever hear any one ſay, I have choſen God, but God hath deceived me? I have ventured my Soul upon the Lord Chriſt for Par<g ref="char:EOLhyphen"/>don, for Righteouſneſs, and Chriſt hath deceived me? I have choſen the Way of Holineſs, and that hath deceived and miſled me? Did you ever hear ſuch a Complaint? No, nor never ſhall.</p>
+            <p>Ariſe then, Young Ones; in the Name of the Lord, I ſay to thee, ariſe, and ſhake your ſelves from the Duſt and Vanities of Youth, be<g ref="char:EOLhyphen"/>take your ſelves out of hand to God in Chriſt, make Religion your Buſi<g ref="char:EOLhyphen"/>neſs,
+<pb n="136" facs="tcp:192295:80"/>
+whatever you do, for the Lord's ſake; this will make you a Bleſſing in your Generation.</p>
+            <p>Truly, let me tell you, the Days we live in, calls aloud upon you Youth, in this Matter; we are in declining times, ſad times, for Re<g ref="char:EOLhyphen"/>ligion it loſes ground apace in this Age; and if God do not ſtir up the Young Generation to keep up Reli<g ref="char:EOLhyphen"/>gion, I tell you it will be quite loſt in the next. O therefore, that you would reſolve to devote your ſelves heartily and betimes to the Lord! Never think it too ſoon to ſeek him, nor too long to ſerve him: You will not count a whole Eternity too long for your own Happineſs, do not therefore count your whole Life too much for God's Service. I had thought to have laid down ſome Directions for your guidance and help in this great Duty of chuſing God, I will but name Five or Six.</p>
+            <p>
+               <pb n="137" facs="tcp:192295:80"/>
+               <hi>Firſt,</hi> Labour for a deep Sence of your Natural State; this furthers the Work. No Man comes to Chriſt till <hi>he is weary and heavy la<g ref="char:EOLhyphen"/>den;</hi> and that no one is, or can be, till a Sence of Sin, and of his Na<g ref="char:EOLhyphen"/>tural State, makes him ſo.</p>
+            <p>
+               <hi>Secondly,</hi> Another ſhould have been this: Whenever the Spirit of the Lord ſtrives with you, carry it becomingly to him, eſpecially in Two Things:</p>
+            <p>Labour to know his Striving Sea<g ref="char:EOLhyphen"/>ſons: And,</p>
+            <p>Labour to cheriſh all his Motions. Then,</p>
+            <p>
+               <hi>Thirdly,</hi> I would have ſaid, Do not conſult Fleſh and Blood on the one hand, nor give ear to the Sug<g ref="char:EOLhyphen"/>geſtions of Satan on the other, for he will always draw you from God.</p>
+            <p>
+               <pb n="138" facs="tcp:192295:81"/>
+               <hi>Fourthly,</hi> Do not put off this Work of chuſing God from time to time, but reſolve to ſet upon it now without any more de ay. And,</p>
+            <p>
+               <hi>Fifthly,</hi> Beſure ſhun the Converſa<g ref="char:EOLhyphen"/>tion of ſuch as Deride and Scoff at ſerious Godlineſs, and ſuch as deny all Revealed Religion; it will be the Undoing of your Souls elſe: And then I would have ſaid,</p>
+            <p>
+               <hi>Laſtly,</hi> Beg the renewing Grace of God to carry on all. Fear and Shame may conceal a Sinner, Mo<g ref="char:EOLhyphen"/>rality may varniſh him, but it is only renewing Grace can change him, and bring him to chuſe God for his God.</p>
+            <p>And then I would have ſpoken to the Second Branch of the Ex<g ref="char:EOLhyphen"/>hortation; that is, to ſuch of you as have choſen God in your Early Days. I am perſwaded I ſpeak to many ſuch this Day; many Young
+<pb n="139" facs="tcp:192295:81"/>
+Ones, who have choſen God in their chuſing Time. Why,</p>
+            <p>
+               <hi>Firſt,</hi> Bleſs God: O bleſs him, magnifie his Grace, who hath coun<g ref="char:EOLhyphen"/>ſelled and inclined your Hearts to this! When <hi>David</hi> had choſen God for his Portion, he preſently cries out, <hi>I will bleſs the Lord, who hath given me Counſel, Pſal.</hi> 16.7. O Sirs! What a bleſſed Thing is it to be an early Convert, to be an early Chriſtian? It is not only Matter of Comfort to you, but I tell you, it is a Comfort to your poor Miniſters. How do they Rejoice when they can beget one Soul to Chriſt? What ſays <hi>Paul</hi> to the <hi>Philippians,</hi> to whom God had bleſſed his Miniſtry, in their Converſion, <hi>Ye are our Crown, and our Joy, Phil.</hi> 4.1. And again to them, 1 <hi>Theſ.</hi> 2.20. <hi>Ye are our Glory, and our Joy;</hi> we bleſs God that bleſſeth us to bring in any one of you to Chriſt.</p>
+            <p>O that every Young One in this Place were of this Number! You are
+<pb n="140" facs="tcp:192295:82"/>
+our Comfort that God has ſome to keep up Religion when we are Dead and Gone.</p>
+            <p>You are a Comfort likewiſe to your Godly Parents, that can in you ſee the Return of many Prayers, and that they can now Die with Comfort, becauſe they leave you their Children, to Walk in the Steps of your Fathers, and to Honor God when they are gone to Heaven. O it is a bleſſed Sight to ſee Young Ones Walk with God! Therefore bleſs God for inclining your Hearts to this, whilſt you have a Day to Live.</p>
+            <p>
+               <hi>Secondly,</hi> Let it be your Care to renew your Choice of God every Day; renew your choice of God dai<g ref="char:EOLhyphen"/>ly, and alſo the Dedication of your ſelves unto God: Our firſt Dedicati<g ref="char:EOLhyphen"/>on is not enough, though it may be Sincere; therefore it muſt be Impro<g ref="char:EOLhyphen"/>ved by repeated Acts: We ſhould be often renewing our Choice of the Lord, and ſhould think it not enough to be the Lord's, but we
+<pb n="141" facs="tcp:192295:82"/>
+ſhould labour to be more the Lord's; for let me tell you, though God can<g ref="char:EOLhyphen"/>not be more ours, yet we may be more his; and one Excellent Way to be ſo, is by chuſing God, and dedicating our ſelves to God.</p>
+            <p>
+               <hi>Laſtly,</hi> Live as they that have choſen God for their God; your claim is high, let your carriage be anſwerable. In ſhort, if you have indeed choſen God, and have gi<g ref="char:EOLhyphen"/>ven up your ſelves to him, make it appear, let it be known, prove it by all Acts proper to ſuch a Privi<g ref="char:EOLhyphen"/>ledge. How is that? <hi>By daily put<g ref="char:EOLhyphen"/>ting off the Old Man, and putting on the New; by Dying more to Sin, and Living more to Righteouſneſs, giving up your ſelves to the Conduct and Leadings of the Spirit,</hi> to be guided by him in all his Motions, making the Word of God the whole Rule of your Lives, labouring in all things <hi>to Walk worthy of God, who hath called you to his Kingdom and Glory;</hi> and in ſo doing you will
+<pb n="142" facs="tcp:192295:83"/>
+have a ſure evidence, that you have obeyed this Call of God in the Text, <hi>Remember now thy Creator in the Days of thy Choice.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>PAge 8. line 18. for <hi>ſome,</hi> read <hi>ſomething.</hi> p. 9. l. 16. r. <hi>ſlighty.</hi> p. 21. l. 23. f. <hi>ruine,</hi> r. <hi>mind.</hi> p. 32. l. 20. r. <hi>when Chriſt touched.</hi> p. 34. l. 16. r. <hi>not known.</hi> p. 62. l. 21. r. <hi>ſo ſay I.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>
